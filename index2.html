@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="build/mirador/css/mirador-combined.css">
+    <title>Mirador Viewer</title>
+    <!--
+    /**
+     * @license
+     * MyFonts Webfont Build ID 3563859, 2018-04-20T12:03:20-0400
+     * 
+     * The fonts listed in this notice are subject to the End User License
+     * Agreement(s) entered into by the website owner. All other parties are 
+     * explicitly restricted from using the Licensed Webfonts(s).
+     * 
+     * You may obtain a valid license at the URLs below.
+     * 
+     * Webfont: SabonLTPro-Bold by Linotype
+     * URL: https://www.myfonts.com/fonts/linotype/sabon/bold/
+     * 
+     * Webfont: SabonLTPro-Roman by Linotype
+     * URL: https://www.myfonts.com/fonts/linotype/sabon/roman/
+     * 
+     * Webfont: SabonLTPro-Italic by Linotype
+     * URL: https://www.myfonts.com/fonts/linotype/sabon/italic/
+     * 
+     * Webfont: SabonLTPro-BoldItalic by Linotype
+     * URL: https://www.myfonts.com/fonts/linotype/sabon/bold-italic/
+     * 
+     * 
+     * License: https://www.myfonts.com/viewlicense?type=web&buildid=3563859
+     * Licensed pageviews: 2,500,000
+     * Webfonts copyright: Part of the digitally encoded machine readable outline data for
+     * producing the Typefaces provided is copyrighted &#x00A9; 2008 Linotype GmbH,
+     * www.linotype.com. All rights reserved. This software is the property of Linotype
+     * GmbH, and may not be reproduced, 
+     * 
+     * © 2018 MyFonts Inc
+    */
+
+    -->
+    <link rel="stylesheet" type="text/css" href="Mirador/Mirador.css">
+    <!-- not working
+    <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/612324/647704/css/fonts.css" />
+  -->
+    <link rel="stylesheet" type="text/css" href="mirador-custom.css">
+  </head>
+  <body>
+    <div id="viewer"></div>
+
+    <script src="build/mirador/mirador.js"></script>
+    <script type="text/javascript">
+
+     $(function() {
+       // Called without "let" or "var"
+       // so we can play with it in the browser
+       myMiradorInstance = Mirador({
+         "id": "viewer",
+         "data": [
+           { "manifestUri": "Albright.json", "location": "Art Institute of Chicago"}
+         ],
+         "mainMenuSettings": {
+            "show": false
+          },
+         "showAddFromURLBox": false,
+         "windowObjects": [
+            {
+              "loadedManifest": "Albright.json",
+              "viewType": "BookView",
+              "displayLayout": false,
+              "sidePanel": false,
+              "fullScreen": false,
+              "overlay": false, //metadata 'i' button
+              "bottomPanelVisible": false,
+            }
+
+
+         ],
+      });
+     });
+    </script>
+    <!-- This enables live reloading of assets for improved developer experience. -->
+    <!-- Remove if copying this page as a basis for another project. -->
+    <script src="//localhost:35729/livereload.js"></script>
+  </body>
+</html>

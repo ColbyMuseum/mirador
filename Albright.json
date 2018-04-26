@@ -1,0 +1,834 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://533d3390-f393-4516-8f04-37171d99d7c0",
+	"@type": "sc:Manifest",
+	"label": "[Click to edit label]",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "[Click to edit description]",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://8bb9cadf-d40e-4e4a-81c1-83e37379a389",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://d5277c75-9eef-445d-a984-c9742639363a",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 1200,
+					"width": 1830,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://9b23a942-24d1-48ba-b7bf-cde4e1b1a327",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://lakeimagesweb.artic.edu/iiif/2/d161ab0f-17c8-58ac-f58f-996c78278540/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://lakeimagesweb.artic.edu/iiif/2/d161ab0f-17c8-58ac-f58f-996c78278540",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 400000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 1200,
+								"width": 1830
+							},
+							"on": "http://d5277c75-9eef-445d-a984-c9742639363a"
+						}
+					]
+				},
+				{
+					"@id": "http://7c7f1836-3660-46ed-a2ba-55961155c150",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 1200,
+					"width": 1856,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://9afc5cbc-66c7-4744-8492-5717cad740a7",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://lakeimagesweb.artic.edu/iiif/2/f879b7a8-1c9c-8e3f-0848-5dc3da853f9f/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://lakeimagesweb.artic.edu/iiif/2/f879b7a8-1c9c-8e3f-0848-5dc3da853f9f",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 400000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 1200,
+								"width": 1856
+							},
+							"on": "http://7c7f1836-3660-46ed-a2ba-55961155c150"
+						}
+					]
+				},
+				{
+					"@id": "http://b2fa21df-4520-4773-b8a8-f85d5265c4e9",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 1200,
+					"width": 1919,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://278128df-2b08-47e1-bfa4-d1e6a5159347",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://lakeimagesweb.artic.edu/iiif/2/b18e51b3-53df-069d-a18e-1d2b6da3172c/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://lakeimagesweb.artic.edu/iiif/2/b18e51b3-53df-069d-a18e-1d2b6da3172c",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 400000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 1200,
+								"width": 1919
+							},
+							"on": "http://b2fa21df-4520-4773-b8a8-f85d5265c4e9"
+						}
+					]
+				},
+				{
+					"@id": "http://af316b48-3603-4219-9ea6-3fab8fb4097d",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 1200,
+					"width": 1889,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://32a4bf43-0474-448b-a129-cca72314c9f3",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://lakeimagesweb.artic.edu/iiif/2/0bf0c24e-7500-048e-e93d-0af29791edf9/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://lakeimagesweb.artic.edu/iiif/2/0bf0c24e-7500-048e-e93d-0af29791edf9",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 400000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 1200,
+								"width": 1889
+							},
+							"on": "http://af316b48-3603-4219-9ea6-3fab8fb4097d"
+						}
+					]
+				},
+				{
+					"@id": "http://b22a46f4-0618-4dd1-aa42-e58fc087cb3d",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 1200,
+					"width": 1925,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://7a79e8bb-435d-4522-b02c-666c863edca9",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://lakeimagesweb.artic.edu/iiif/2/b642eb61-8fd6-6dce-29c5-b11a9fd1468c/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://lakeimagesweb.artic.edu/iiif/2/b642eb61-8fd6-6dce-29c5-b11a9fd1468c",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 400000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 1200,
+								"width": 1925
+							},
+							"on": "http://b22a46f4-0618-4dd1-aa42-e58fc087cb3d"
+						}
+					]
+				},
+				{
+					"@id": "http://32cdcb24-a2c0-44d9-b9d8-4ebe0be0bfe2",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 1200,
+					"width": 1888,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://837a5eb8-33b1-4d04-837f-7e002045d899",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://lakeimagesweb.artic.edu/iiif/2/fdb66d95-07f0-2057-be69-65327f084572/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://lakeimagesweb.artic.edu/iiif/2/fdb66d95-07f0-2057-be69-65327f084572",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 400000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 1200,
+								"width": 1888
+							},
+							"on": "http://32cdcb24-a2c0-44d9-b9d8-4ebe0be0bfe2"
+						}
+					]
+				},
+				{
+					"@id": "http://b1be17dc-9a28-4b23-80c0-8398fc833010",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 1200,
+					"width": 1922,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://94e7f184-f590-4968-86cf-5b55531e0f85",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://lakeimagesweb.artic.edu/iiif/2/751154ed-3789-6a92-d2e8-55675779beb9/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://lakeimagesweb.artic.edu/iiif/2/751154ed-3789-6a92-d2e8-55675779beb9",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 400000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 1200,
+								"width": 1922
+							},
+							"on": "http://b1be17dc-9a28-4b23-80c0-8398fc833010"
+						}
+					]
+				},
+				{
+					"@id": "http://3c518f64-a2e9-40ab-b0e7-10ffdadfded8",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 1200,
+					"width": 1889,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://8f4f6e3e-5f8b-434d-a4de-57b19e4f3a57",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://lakeimagesweb.artic.edu/iiif/2/9655f56f-167f-6580-9b7f-4a576644a5b0/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://lakeimagesweb.artic.edu/iiif/2/9655f56f-167f-6580-9b7f-4a576644a5b0",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 400000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 1200,
+								"width": 1889
+							},
+							"on": "http://3c518f64-a2e9-40ab-b0e7-10ffdadfded8"
+						}
+					]
+				},
+				{
+					"@id": "http://fe5925b9-dbf9-4f0a-b7ae-c199d099998b",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 1200,
+					"width": 1917,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://eb761131-f65e-4de7-9156-8c9a61cbbc2c",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://lakeimagesweb.artic.edu/iiif/2/2fedfc2f-6a08-d4b1-ea9a-074ad49ce41b/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://lakeimagesweb.artic.edu/iiif/2/2fedfc2f-6a08-d4b1-ea9a-074ad49ce41b",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 400000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 1200,
+								"width": 1917
+							},
+							"on": "http://fe5925b9-dbf9-4f0a-b7ae-c199d099998b"
+						}
+					]
+				},
+				{
+					"@id": "http://17e405f9-5c38-4153-a4e0-64eb9ea7059a",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 1200,
+					"width": 1886,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://9c0eba5b-c70a-47ee-b69f-f63bb37e7a63",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://lakeimagesweb.artic.edu/iiif/2/6cba1fbb-002f-8564-5bda-bc07fd0b87ad/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://lakeimagesweb.artic.edu/iiif/2/6cba1fbb-002f-8564-5bda-bc07fd0b87ad",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 400000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 1200,
+								"width": 1886
+							},
+							"on": "http://17e405f9-5c38-4153-a4e0-64eb9ea7059a"
+						}
+					]
+				},
+				{
+					"@id": "http://1bd2f33a-2211-45b2-9f32-0e27d6222705",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 1200,
+					"width": 1908,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://55c20169-13e3-4587-b37f-a092ab2a8033",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://lakeimagesweb.artic.edu/iiif/2/1fb18a93-3ae7-39f0-4122-0b5435bb7946/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://lakeimagesweb.artic.edu/iiif/2/1fb18a93-3ae7-39f0-4122-0b5435bb7946",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 400000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 1200,
+								"width": 1908
+							},
+							"on": "http://1bd2f33a-2211-45b2-9f32-0e27d6222705"
+						}
+					]
+				},
+				{
+					"@id": "http://25e6c88b-08ea-4091-8718-9886dcb81ab3",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 1200,
+					"width": 1894,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://e5c260fb-2d4a-4d27-96ec-2919fa6b1637",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://lakeimagesweb.artic.edu/iiif/2/20bb88da-9df5-27e2-8603-5f3460faa15d/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://lakeimagesweb.artic.edu/iiif/2/20bb88da-9df5-27e2-8603-5f3460faa15d",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 400000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 1200,
+								"width": 1894
+							},
+							"on": "http://25e6c88b-08ea-4091-8718-9886dcb81ab3"
+						}
+					]
+				}
+			]
+		}
+	],
+	"structures": []
+}

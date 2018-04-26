@@ -1,0 +1,126 @@
+/*@font-face {
+  font-family: 'Ideal Sans';
+  src: url('../fonts/Ideal_Sans/IdealSans-Book-Pro.otf') format('otf');
+}*/
+
+#viewer {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-image: none;
+  background-color: #000000;
+}
+
+.mirador-container .mirador-osd {
+  position: absolute;
+  height: 90%;
+}
+
+.mirador-container .window {
+  background-color: #000000;
+}
+
+.mirador-container .content-container {
+  margin-top: 0;
+}
+
+.window-manifest-navigation {
+  display:none;
+}
+
+.mirador-container .mirador-osd-up, .mirador-container .mirador-osd-right, .mirador-container .mirador-osd-down, .mirador-container .mirador-osd-left, .mirador-container .mirador-osd-left, .mirador-container .mirador-osd-zoom-in, .mirador-container .mirador-osd-zoom-out {
+    display: none;
+}
+
+.mirador-container .bottomPanel {
+  background-color: #F1F1F1;
+  padding: 0;
+  height: 105px;
+  transition: transform 0.2s ease;
+}
+
+.mirador-container .mirador-osd-toggle-bottom-panel {
+  z-index: 50;
+  font-family: 'Ideal Sans';
+  right: 5%;
+  top: 37px;
+  margin-right: 0;
+}
+
+.mirador-container .hud-control {
+  font-size: 20px;
+  color: #444444;
+  text-shadow: none;
+  font-weight: lighter;
+}
+
+.mirador-container .mirador-osd-toggle-bottom-panel.bottom-panel-open {
+  transform: translateY(0px);
+  transition: all 0.2s ease-out;
+
+}
+
+.exhibitionTitle.open {
+  transform: translateY(-105px);
+  transition: all 0.2s ease-out;
+}
+
+.exhibitionTitle {
+  transform: translateY(0px);
+  transition: all 0.2s ease-out;
+  color: #000000;
+  font-family: SabonLTPro-Roman;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 22px;
+  width: 100%;
+  background-color: #F1F1F1;
+  bottom: 0px;
+  position: absolute;
+  z-index: 50;
+  margin: 0;
+  padding: 35px 25px;
+}
+
+.thumb-label {
+  display: none;
+}
+
+.mirador-container .panel-thumbnail-view ul.panel-listing-thumbs li {
+  margin-bottom: 0;
+}
+
+.mirador-container .panel-thumbnail-view::-webkit-scrollbar {
+  display: none;
+}
+
+.fa-3x {
+  color: #F1F1F1;
+}
+
+.mirador-container .mirador-osd-go-home {
+  color: #ffffff;
+
+}
+
+.status {
+  width: 80px;
+  height: 36px;
+  background-color: #80104E;
+  color: #ffffff;
+  left: 48%;
+  position: absolute;
+  bottom: 0px;
+  border-radius: 15px;
+  z-index: 50;
+}
+
+.status p {
+  text-align: center;
+  top: -7px;
+  position: relative;
+}
+
+.mirador-container .panel-thumbnail-view ul.panel-listing-thumbs li img.thumbnail-image.highlight {
+    border: 2px solid #80104E;
+}
