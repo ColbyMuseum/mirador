@@ -33,6 +33,11 @@
         this.imagesList =  this.imagesListLtr.concat();
       }
       this.loadContent();
+
+      //display current image #
+      var currentImage = this.currentImgIndex+1;
+      jQuery('.bottomPanel').find('.status').html('<p>'+currentImage +' / '+this.imagesList.length+'</p>');
+
       if(this.vDirectionStatus == 'rtl'){
         var firstCanvasId = this.imagesList[0]['@id'];
         var firstCanvasThumbSelector = 'img.thumbnail-image[data-image-id="'+firstCanvasId+'"]';
@@ -83,10 +88,18 @@
 
     updateFocusImages: function(focusList) {
       var _this = this;
+
+      //display current image #
+      this.currentImgIndex = $.getImageIndexById(this.imagesList, focusList[0]);
+      var currentImage = this.currentImgIndex+1;
+      //var nextImage = currentImage + 1; //going to see if we need to add next image number
+      this.element.filter('div.status').html('<p>'+currentImage + ' / '+this.imagesList.length+'</p>');
+
       this.element.find('.highlight').removeClass('highlight');
       jQuery.each(focusList, function(index, canvasId) {
         _this.element.find("img[data-image-id='"+canvasId+"']").addClass('highlight');
         _this.element.find("img[data-image-id='"+canvasId+"']").parent().addClass('highlight');
+        console.log(_this.element.find("img[data-image-id='"+canvasId+"']").position());
       });
     },
 
@@ -184,6 +197,8 @@
     },
 
     template: $.Handlebars.compile([
+                                 '<div class="status">',
+                                 '</div>',
                                  '<div class="{{thumbnailCls}}">',
                                  '<ul class="{{listingCssCls}}" role="list" aria-label="Thumbnails">',
                                  '{{#thumbs}}',

@@ -1,7 +1,7 @@
-/*@font-face {
+@font-face {
   font-family: 'Ideal Sans';
-  src: url('../fonts/Ideal_Sans/IdealSans-Book-Pro.otf') format('otf');
-}*/
+  src: url('Mirador/IdealSans-Light-Pro.otf');
+}
 
 #viewer {
   width: 100%;
@@ -34,35 +34,54 @@
 
 .mirador-container .bottomPanel {
   background-color: #F1F1F1;
-  padding: 0;
+  padding-bottom: 5px;
   height: 105px;
   transition: transform 0.2s ease;
 }
 
 .mirador-container .mirador-osd-toggle-bottom-panel {
-  z-index: 50;
+  /*z-index: 50;
   font-family: 'Ideal Sans';
   right: 5%;
   top: 37px;
-  margin-right: 0;
+  margin-right: 0;*/
+  width: 100%;
+  right: 0%;
+  margin: 0;
+  text-align: right;
 }
 
 .mirador-container .hud-control {
-  font-size: 20px;
+  /*font-size: 20px;
   color: #444444;
   text-shadow: none;
-  font-weight: lighter;
+  font-weight: lighter;*/
+  opacity: 1;
 }
 
 .mirador-container .mirador-osd-toggle-bottom-panel.bottom-panel-open {
-  transform: translateY(0px);
+  transform: translateY(-105px);
   transition: all 0.2s ease-out;
 
 }
 
-.exhibitionTitle.open {
+.seeAll {
+  z-index: 51;
+  position: relative;
+  right: 2%;
+  top: -38px;
+  text-shadow: none;
+  color: #444444;
+  font-family: 'Ideal Sans';
+}
+
+/*.exhibitionTitle.open {
   transform: translateY(-105px);
   transition: all 0.2s ease-out;
+}*/
+
+.mirador-container .window-manifest-title {
+  display: none;
 }
 
 .exhibitionTitle {
@@ -80,6 +99,8 @@
   z-index: 50;
   margin: 0;
   padding: 35px 25px;
+  text-align: left;
+  text-shadow: none;
 }
 
 .thumb-label {
@@ -122,5 +143,13 @@
 }
 
 .mirador-container .panel-thumbnail-view ul.panel-listing-thumbs li img.thumbnail-image.highlight {
-    border: 2px solid #80104E;
+  border: 2px solid #80104E;
+}
+
+.mirador-container .panel-thumbnail-view ul.panel-listing-thumbs li img:hover {
+  border: 2px solid #80104E;
+}
+
+.mirador-container .mirador-pan-zoom-controls {
+  display: none;
 }

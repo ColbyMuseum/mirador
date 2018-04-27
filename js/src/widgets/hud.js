@@ -206,8 +206,13 @@
       });
     },
 
+    /*<p class="exhibitionTitle" title="exhibitionTitle" aria-label="exhibitionTitle">Medical Sketchbook, 1918<a class="mirador-osd-toggle-bottom-panel hud-control" role="button" aria-label="Toggle Bottom Panel"><i class="fa fa-angle-down"></i>&nbsp;&nbsp;&nbsp;See all pages</a></p>',*/
+
     template: $.Handlebars.compile([
                                  '<div class="mirador-hud">',
+                                 '<a class="mirador-osd-go-home hud-control" role="button" aria-label="Reset image bounds">',
+                                 '<svg width="53px" height="53px" viewBox="0 0 53 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Menu-Closed-+-Zoom" transform="translate(-1294.000000, -29.000000)"><rect id="Rectangle-3" fill="#80104E" x="1294" y="29" width="53" height="53" rx="1"></rect><path d="M1304,73 L1316.45455,59.5833333" id="Line-3" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path><path d="M1308,59 C1309.5,59 1312.5,59 1317,59 L1317,68" id="Path-3" stroke="#FFFFFF" stroke-width="2"></path><g id="Group" transform="translate(1328.500000, 46.000000) rotate(-180.000000) translate(-1328.500000, -46.000000) translate(1322.000000, 39.000000)" stroke="#FFFFFF" stroke-width="2"><path d="M0,14 L12.4545455,0.583333333" id="Line-3-Copy" stroke-linecap="square"></path><path d="M4,0 C5.5,0 8.5,0 13,0 L13,9" id="Path-3-Copy"></path></g></g></g></svg>',
+                                 '</a>',
                                  '{{#if showNextPrev}}',
                                  '<a class="mirador-osd-previous hud-control ">',
                                  '<i class="fa fa-3x fa-chevron-left "></i>',
@@ -236,7 +241,8 @@
                                  '{{/if}}',
                                  '{{#if showBottomPanel}}',
                                  '<a class="mirador-osd-toggle-bottom-panel hud-control" role="button" aria-label="Toggle Bottom Panel">',
-                                 '<i class="fa fa-2x fa-ellipsis-h"></i>',
+                                 '<p class="exhibitionTitle" title="exhibitionTitle" aria-label="exhibitionTitle">Medical Sketchbook, 1918</p>',
+                                 '<span class="seeAll"><i class="fa fa-angle-down"></i>&nbsp;&nbsp;&nbsp;See all pages</span>',
                                  '</a>',
                                  '{{/if}}',
                                  '<div class="mirador-pan-zoom-controls hud-control">',
@@ -257,9 +263,6 @@
                                  '</a>',
                                  '<a class="mirador-osd-zoom-out hud-control" role="button" aria-label="Zoom out">',
                                  '<i class="fa fa-minus-circle"></i>',
-                                 '</a>',
-                                 '<a class="mirador-osd-go-home hud-control" role="button" aria-label="Reset image bounds">',
-                                 '<i class="fa fa-home"></i>',
                                  '</a>',
                                  '</div>',
                                  '</div>'

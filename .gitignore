@@ -15,3 +15,6 @@ data/Harvard
 build/
 .idea/
 bower_components/
+Mirador/IdealSans-Book-Pro.otf
+Mirador/IdealSans-Light-Pro.otf
+test.json
