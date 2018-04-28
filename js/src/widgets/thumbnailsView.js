@@ -99,7 +99,7 @@
       jQuery.each(focusList, function(index, canvasId) {
         _this.element.find("img[data-image-id='"+canvasId+"']").addClass('highlight');
         _this.element.find("img[data-image-id='"+canvasId+"']").parent().addClass('highlight');
-        console.log(_this.element.find("img[data-image-id='"+canvasId+"']").position());
+        //console.log(_this.element.find("img[data-image-id='"+canvasId+"']").position());
       });
     },
 
@@ -147,6 +147,7 @@
       //add any other events that would trigger thumbnail display (resize, etc)
 
       _this.element.find('.thumbnail-image').on('click', function() {
+        console.log('click', this);
         var canvasID = jQuery(this).attr('data-image-id');
         _this.eventEmitter.publish('SET_CURRENT_CANVAS_ID.' + _this.windowId, canvasID);
       });
@@ -197,8 +198,6 @@
     },
 
     template: $.Handlebars.compile([
-                                 '<div class="status">',
-                                 '</div>',
                                  '<div class="{{thumbnailCls}}">',
                                  '<ul class="{{listingCssCls}}" role="list" aria-label="Thumbnails">',
                                  '{{#thumbs}}',

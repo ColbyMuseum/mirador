@@ -1108,6 +1108,8 @@
       '<div class="overlay"></div>',
       '<div class="view-container {{#unless sidePanel}}focus-max-width{{/unless}}">',
       '<div class="bottomPanel">',
+      '<div class="status">',
+      '</div>',
       '</div>',
       '</div>',
       '</div>',

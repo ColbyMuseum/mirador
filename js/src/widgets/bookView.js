@@ -344,7 +344,9 @@
           _this.osd.world.addHandler( "add-item", addItemHandler );
 
           _this.osd.addHandler('zoom', $.debounce(function(){
+            //_this.element[0].find('.mirador-osd-go-home').css('opacity', 1);
             _this.setBounds();
+             console.log('zoom',  _this.osdOptions.osdBounds);
           }, 300));
 
           _this.osd.addHandler('pan', $.debounce(function(){
@@ -376,6 +378,7 @@
     // need next single page for lining pages up
     // don't need for continuous or individuals
     next: function() {
+      console.log('next');
       var _this = this;
       var next;
       if (this.currentImgIndex % 2 === 0) {
@@ -392,6 +395,7 @@
     // need previous single page for lining things up
     // don't need for continuous or individuals
     previous: function() {
+      console.log('previous');
       var _this = this;
       var prev;
       if (this.currentImgIndex % 2 === 0) {

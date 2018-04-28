@@ -34,7 +34,7 @@
 
 .mirador-container .bottomPanel {
   background-color: #F1F1F1;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
   height: 105px;
   transition: transform 0.2s ease;
 }
@@ -121,7 +121,7 @@
 
 .mirador-container .mirador-osd-go-home {
   color: #ffffff;
-
+  opacity: .5;
 }
 
 .status {
@@ -131,15 +131,17 @@
   color: #ffffff;
   left: 48%;
   position: absolute;
-  bottom: 0px;
-  border-radius: 15px;
+  bottom: 8px;
+  border-radius: 11px;
   z-index: 50;
 }
 
 .status p {
   text-align: center;
-  top: -7px;
+  top: -15px;
   position: relative;
+  font-family: 'Ideal Sans';
+  font-size: 20px;
 }
 
 .mirador-container .panel-thumbnail-view ul.panel-listing-thumbs li img.thumbnail-image.highlight {

@@ -206,8 +206,6 @@
       });
     },
 
-    /*<p class="exhibitionTitle" title="exhibitionTitle" aria-label="exhibitionTitle">Medical Sketchbook, 1918<a class="mirador-osd-toggle-bottom-panel hud-control" role="button" aria-label="Toggle Bottom Panel"><i class="fa fa-angle-down"></i>&nbsp;&nbsp;&nbsp;See all pages</a></p>',*/
-
     template: $.Handlebars.compile([
                                  '<div class="mirador-hud">',
                                  '<a class="mirador-osd-go-home hud-control" role="button" aria-label="Reset image bounds">',
