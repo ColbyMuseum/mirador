@@ -212,6 +212,12 @@
           height: _this.osdOptions.osdBounds.height
         }
       });
+      //control fade of reset button
+      if (_this.osdOptions.osdBounds.width < 2)  {
+        _this.element.find('.mirador-osd-go-home').fadeIn();
+      } else {
+        _this.element.find('.mirador-osd-go-home').fadeOut();
+      }
     },
 
     toggle: function(stateValue) {
@@ -347,19 +353,12 @@
 
           _this.osd.addHandler('zoom', $.debounce(function(){
             _this.setBounds();
-            //control fade of reset button
-            if (_this.osdOptions.osdBounds.x > 0)  {
-              _this.element.find('.mirador-osd-go-home').fadeIn();
-            } else {
-              _this.element.find('.mirador-osd-go-home').fadeOut();
-            }
           }, 300));
 
           _this.osd.addHandler('pan', $.debounce(function(){
             _this.setBounds();
           }, 300));
         });
-
         _this.osd.open(tileSources[0], {opacity:1, x:0, y:0, width:1});
       });
 
@@ -384,7 +383,6 @@
     // need next single page for lining pages up
     // don't need for continuous or individuals
     next: function() {
-      console.log('next');
       var _this = this;
       var next;
 
