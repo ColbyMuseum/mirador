@@ -1,2502 +1,1396 @@
 {
-	"@context": "http://iiif.io/api/presentation/2/context.json",
-	"@id": "http://533d3390-f393-4516-8f04-37171d99d7c0",
-	"@type": "sc:Manifest",
-	"label": "Medial Sketchbook",
-	"metadata": [],
-	"description": [{
-		"value": "Sketchbook by Ivan Albright",
-		"language": "en"
-	}],
-	"attribution": "Copyright Art Institute of Chicago",
-	"sequences": [{
-		"@type": "sc:Sequence",
-		"canvases": [{
-			"@type": "sc:Canvas",
-			"@id": "http://d8eb23a28ab22e96aa2773f6915020358154b114",
-			"label": "Albright Sketchbook",
-			"width": 1830,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://d8eb23a28ab22e96aa2773f6915020358154b114",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/d161ab0f-17c8-58ac-f58f-996c78278540/full/full/0/default.jpg",
-					"width": 1830,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/d161ab0f-17c8-58ac-f58f-996c78278540",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://5cb4d2e94d1095a5d551bb301bed1795efd8675d",
-			"label": "Albright Sketchbook",
-			"width": 1856,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://5cb4d2e94d1095a5d551bb301bed1795efd8675d",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/f879b7a8-1c9c-8e3f-0848-5dc3da853f9f/full/full/0/default.jpg",
-					"width": 1856,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/f879b7a8-1c9c-8e3f-0848-5dc3da853f9f",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://13c5c62a5fd801270eff8926cdcf456158a734f4",
-			"label": "Albright Sketchbook",
-			"width": 1919,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://13c5c62a5fd801270eff8926cdcf456158a734f4",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/b18e51b3-53df-069d-a18e-1d2b6da3172c/full/full/0/default.jpg",
-					"width": 1919,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/b18e51b3-53df-069d-a18e-1d2b6da3172c",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://17691c05e4a221258bf66b0a3be5d8d2834102eb",
-			"label": "Albright Sketchbook",
-			"width": 1889,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://17691c05e4a221258bf66b0a3be5d8d2834102eb",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/0bf0c24e-7500-048e-e93d-0af29791edf9/full/full/0/default.jpg",
-					"width": 1889,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/0bf0c24e-7500-048e-e93d-0af29791edf9",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://52617896dc5661df8989827522105a9e24cdfb4f",
-			"label": "Albright Sketchbook",
-			"width": 1925,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://52617896dc5661df8989827522105a9e24cdfb4f",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/b642eb61-8fd6-6dce-29c5-b11a9fd1468c/full/full/0/default.jpg",
-					"width": 1925,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/b642eb61-8fd6-6dce-29c5-b11a9fd1468c",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://fa29263dc15568064179bc90eb797a61797febe9",
-			"label": "Albright Sketchbook",
-			"width": 1888,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://fa29263dc15568064179bc90eb797a61797febe9",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/fdb66d95-07f0-2057-be69-65327f084572/full/full/0/default.jpg",
-					"width": 1888,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/fdb66d95-07f0-2057-be69-65327f084572",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://a0205f8e708a7e57b95b1ec2cdd680862849090a",
-			"label": "Albright Sketchbook",
-			"width": 1922,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://a0205f8e708a7e57b95b1ec2cdd680862849090a",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/751154ed-3789-6a92-d2e8-55675779beb9/full/full/0/default.jpg",
-					"width": 1922,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/751154ed-3789-6a92-d2e8-55675779beb9",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://784b5623c9233e961b99dde52d848220b397b3ac",
-			"label": "Albright Sketchbook",
-			"width": 1889,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://784b5623c9233e961b99dde52d848220b397b3ac",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/9655f56f-167f-6580-9b7f-4a576644a5b0/full/full/0/default.jpg",
-					"width": 1889,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/9655f56f-167f-6580-9b7f-4a576644a5b0",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://22525d2c8b690714909ff9fe46a2d5253a39f92f",
-			"label": "Albright Sketchbook",
-			"width": 1917,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://22525d2c8b690714909ff9fe46a2d5253a39f92f",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/2fedfc2f-6a08-d4b1-ea9a-074ad49ce41b/full/full/0/default.jpg",
-					"width": 1917,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/2fedfc2f-6a08-d4b1-ea9a-074ad49ce41b",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://54aab311794087e66e0b9110e302ef16015398ce",
-			"label": "Albright Sketchbook",
-			"width": 1886,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://54aab311794087e66e0b9110e302ef16015398ce",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/6cba1fbb-002f-8564-5bda-bc07fd0b87ad/full/full/0/default.jpg",
-					"width": 1886,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/6cba1fbb-002f-8564-5bda-bc07fd0b87ad",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://23d0f3d549d8dbbd982413299b12004dea3e868c",
-			"label": "Albright Sketchbook",
-			"width": 1908,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://23d0f3d549d8dbbd982413299b12004dea3e868c",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/1fb18a93-3ae7-39f0-4122-0b5435bb7946/full/full/0/default.jpg",
-					"width": 1908,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/1fb18a93-3ae7-39f0-4122-0b5435bb7946",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://d4ac915f4c3a56c32b44d4fd4b6d142b76d610b3",
-			"label": "Albright Sketchbook",
-			"width": 1894,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://d4ac915f4c3a56c32b44d4fd4b6d142b76d610b3",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/20bb88da-9df5-27e2-8603-5f3460faa15d/full/full/0/default.jpg",
-					"width": 1894,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/20bb88da-9df5-27e2-8603-5f3460faa15d",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://0410580a9656cc654ef8fae0f7d51526b7d47914",
-			"label": "Albright Sketchbook",
-			"width": 1906,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://0410580a9656cc654ef8fae0f7d51526b7d47914",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/942d7b5a-c8ac-46ec-dc1e-5023eb8c01aa/full/full/0/default.jpg",
-					"width": 1906,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/942d7b5a-c8ac-46ec-dc1e-5023eb8c01aa",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://8da92daa063063195e57ac7f459a7c3f1a37cec9",
-			"label": "Albright Sketchbook",
-			"width": 1895,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://8da92daa063063195e57ac7f459a7c3f1a37cec9",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/f49a1b50-0a62-7674-9cb4-af9b2900732d/full/full/0/default.jpg",
-					"width": 1895,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/f49a1b50-0a62-7674-9cb4-af9b2900732d",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://c5108c9d90ec3a96a9376e0d808bb2975588d532",
-			"label": "Albright Sketchbook",
-			"width": 1892,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://c5108c9d90ec3a96a9376e0d808bb2975588d532",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/f5f175e7-b078-f6f3-1573-a015a660cfa6/full/full/0/default.jpg",
-					"width": 1892,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/f5f175e7-b078-f6f3-1573-a015a660cfa6",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://acbe51132533ef0d1d961319b9d1ca1637d4e0dc",
-			"label": "Albright Sketchbook",
-			"width": 1906,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://acbe51132533ef0d1d961319b9d1ca1637d4e0dc",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/84e71041-9824-6c6b-dab2-bb722eed9744/full/full/0/default.jpg",
-					"width": 1906,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/84e71041-9824-6c6b-dab2-bb722eed9744",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://ba9959f546ee48d1a59f3cb3f3b288b3dd5c3d44",
-			"label": "Albright Sketchbook",
-			"width": 1891,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://ba9959f546ee48d1a59f3cb3f3b288b3dd5c3d44",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/9d52f18e-ce56-3e5e-9b60-9db2ee1a8fd6/full/full/0/default.jpg",
-					"width": 1891,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/9d52f18e-ce56-3e5e-9b60-9db2ee1a8fd6",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://1134038394712214361e9856e856818fa8211a73",
-			"label": "Albright Sketchbook",
-			"width": 1906,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://1134038394712214361e9856e856818fa8211a73",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/4079f88d-18ae-e4a0-21dc-28c564a2398e/full/full/0/default.jpg",
-					"width": 1906,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/4079f88d-18ae-e4a0-21dc-28c564a2398e",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://d2d429a7589ce886dff3095e7a37f6f7d2bef361",
-			"label": "Albright Sketchbook",
-			"width": 1899,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://d2d429a7589ce886dff3095e7a37f6f7d2bef361",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/af91a200-e02d-94d1-0f8b-0eb3fcf54c07/full/full/0/default.jpg",
-					"width": 1899,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/af91a200-e02d-94d1-0f8b-0eb3fcf54c07",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://9677abd609301e114a74de6c4e7c76b7f74e9be3",
-			"label": "Albright Sketchbook",
-			"width": 1629,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://9677abd609301e114a74de6c4e7c76b7f74e9be3",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/94f6e40d-4036-e89b-5f31-208513238bbf/full/full/0/default.jpg",
-					"width": 1629,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/94f6e40d-4036-e89b-5f31-208513238bbf",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://889f079d22a7f335ea55be50cfca105249903159",
-			"label": "Albright Sketchbook",
-			"width": 1905,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://889f079d22a7f335ea55be50cfca105249903159",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/b2d38ab3-d5e0-a6d4-2219-35a9163263a7/full/full/0/default.jpg",
-					"width": 1905,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/b2d38ab3-d5e0-a6d4-2219-35a9163263a7",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://7af93614168a0dd845107db8b6c13dcddde4d578",
-			"label": "Albright Sketchbook",
-			"width": 1642,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://7af93614168a0dd845107db8b6c13dcddde4d578",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/74a6da08-0374-0f9c-6b81-d5e37a6da2f3/full/full/0/default.jpg",
-					"width": 1642,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/74a6da08-0374-0f9c-6b81-d5e37a6da2f3",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://3ff8b9cd17c851fe33cea7edf508983716dc0c9d",
-			"label": "Albright Sketchbook",
-			"width": 1914,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://3ff8b9cd17c851fe33cea7edf508983716dc0c9d",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/ff0a6aea-1ac7-e911-b969-f4f4a1eb2fea/full/full/0/default.jpg",
-					"width": 1914,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/ff0a6aea-1ac7-e911-b969-f4f4a1eb2fea",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://f6085236fc3122a33797b7124ba3eeee6afa1b73",
-			"label": "Albright Sketchbook",
-			"width": 1685,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://f6085236fc3122a33797b7124ba3eeee6afa1b73",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/b55e0363-d8ae-7df7-2571-d841f4e6b5d2/full/full/0/default.jpg",
-					"width": 1685,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/b55e0363-d8ae-7df7-2571-d841f4e6b5d2",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://b163e91f452937dd5b960f82e039613d6fbdc771",
-			"label": "Albright Sketchbook",
-			"width": 1892,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://b163e91f452937dd5b960f82e039613d6fbdc771",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/b54b3d86-c76c-2f58-a132-a70d6e95854b/full/full/0/default.jpg",
-					"width": 1892,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/b54b3d86-c76c-2f58-a132-a70d6e95854b",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://e3948a44c0b9355128ec30e599ab8c9ec03b881f",
-			"label": "Albright Sketchbook",
-			"width": 1682,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://e3948a44c0b9355128ec30e599ab8c9ec03b881f",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/1ed94ea5-a062-6246-43f1-48fa8e75942e/full/full/0/default.jpg",
-					"width": 1682,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/1ed94ea5-a062-6246-43f1-48fa8e75942e",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://07b31320ad84042a1f4916dcc3f7c5a5472450a1",
-			"label": "Albright Sketchbook",
-			"width": 1913,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://07b31320ad84042a1f4916dcc3f7c5a5472450a1",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/bd106983-cab4-6778-7f1d-b529f2440da3/full/full/0/default.jpg",
-					"width": 1913,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/bd106983-cab4-6778-7f1d-b529f2440da3",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://9a9caa32b1c65a1eb8c66d3a96dcba935ffe0efe",
-			"label": "Albright Sketchbook",
-			"width": 1719,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://9a9caa32b1c65a1eb8c66d3a96dcba935ffe0efe",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/c653cdcf-46dd-6b6c-a592-9288db3d0140/full/full/0/default.jpg",
-					"width": 1719,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/c653cdcf-46dd-6b6c-a592-9288db3d0140",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://bf25cded81a4c17fbcbeb0ac17b730e4a091888e",
-			"label": "Albright Sketchbook",
-			"width": 1912,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://bf25cded81a4c17fbcbeb0ac17b730e4a091888e",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/f8a7f59f-3701-0295-21e4-e28cf23784ec/full/full/0/default.jpg",
-					"width": 1912,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/f8a7f59f-3701-0295-21e4-e28cf23784ec",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://2176559b9fc8a97224ad94b917d2940b8836343b",
-			"label": "Albright Sketchbook",
-			"width": 1720,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://2176559b9fc8a97224ad94b917d2940b8836343b",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/3f8c436d-81dc-350e-a7d3-cb12078e0291/full/full/0/default.jpg",
-					"width": 1720,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/3f8c436d-81dc-350e-a7d3-cb12078e0291",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://f8a2c6ee9503963703bec6cf7c19ccb9530e0d69",
-			"label": "Albright Sketchbook",
-			"width": 1906,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://f8a2c6ee9503963703bec6cf7c19ccb9530e0d69",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/f5427b17-cb0d-56a3-70b1-d475424eaddd/full/full/0/default.jpg",
-					"width": 1906,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/f5427b17-cb0d-56a3-70b1-d475424eaddd",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://5f9269ac89189c0a0a154f69b04243c7109d3fe7",
-			"label": "Albright Sketchbook",
-			"width": 1763,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://5f9269ac89189c0a0a154f69b04243c7109d3fe7",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/3c5ab6d4-e946-e87c-7c03-9e554cf97c34/full/full/0/default.jpg",
-					"width": 1763,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/3c5ab6d4-e946-e87c-7c03-9e554cf97c34",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://12faf370424ffe09b098cff77a9bc23d0a038445",
-			"label": "Albright Sketchbook",
-			"width": 1905,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://12faf370424ffe09b098cff77a9bc23d0a038445",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/70572dd9-fc63-44c7-3209-77de0eafd1c7/full/full/0/default.jpg",
-					"width": 1905,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/70572dd9-fc63-44c7-3209-77de0eafd1c7",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://4f96df8cd75b218525b10acfc94c4bc42e5ea5a7",
-			"label": "Albright Sketchbook",
-			"width": 1797,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://4f96df8cd75b218525b10acfc94c4bc42e5ea5a7",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/ef237eb2-bfb4-aadd-c8d3-c7cfacbb8deb/full/full/0/default.jpg",
-					"width": 1797,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/ef237eb2-bfb4-aadd-c8d3-c7cfacbb8deb",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://9e9970606e46f262004c28f5c45af207af4111e3",
-			"label": "Albright Sketchbook",
-			"width": 1883,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://9e9970606e46f262004c28f5c45af207af4111e3",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/d4219c3a-b994-0edb-3b11-980f3310c792/full/full/0/default.jpg",
-					"width": 1883,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/d4219c3a-b994-0edb-3b11-980f3310c792",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://cc10e96c05f8b24442fe68c1af4d789b99036bf4",
-			"label": "Albright Sketchbook",
-			"width": 1790,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://cc10e96c05f8b24442fe68c1af4d789b99036bf4",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/2b8315a6-927a-a960-41e1-329af8b5b06c/full/full/0/default.jpg",
-					"width": 1790,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/2b8315a6-927a-a960-41e1-329af8b5b06c",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://a008c812d5df6597fcbc101fbba3eee77d964595",
-			"label": "Albright Sketchbook",
-			"width": 1861,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://a008c812d5df6597fcbc101fbba3eee77d964595",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/a70b0078-bad6-7580-84d5-7af459d199f3/full/full/0/default.jpg",
-					"width": 1861,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/a70b0078-bad6-7580-84d5-7af459d199f3",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://eada50987632f90866169c60c11447aa3b7c3cf0",
-			"label": "Albright Sketchbook",
-			"width": 1767,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://eada50987632f90866169c60c11447aa3b7c3cf0",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/b0630ab9-0f75-00fa-4430-f54e55a741aa/full/full/0/default.jpg",
-					"width": 1767,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/b0630ab9-0f75-00fa-4430-f54e55a741aa",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://a90a700a92d6455d150185f7b5b623684722ba61",
-			"label": "Albright Sketchbook",
-			"width": 1870,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://a90a700a92d6455d150185f7b5b623684722ba61",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/5684d30e-527b-441d-7aa7-56868a7441d8/full/full/0/default.jpg",
-					"width": 1870,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/5684d30e-527b-441d-7aa7-56868a7441d8",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://5834d9386addd630ee64ebd38073086a699ac45b",
-			"label": "Albright Sketchbook",
-			"width": 1687,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://5834d9386addd630ee64ebd38073086a699ac45b",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/227f6e85-c4ee-3c72-772f-c1f33a7dfa50/full/full/0/default.jpg",
-					"width": 1687,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/227f6e85-c4ee-3c72-772f-c1f33a7dfa50",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://6482b3cbbf85391cd360e378d6939bc10fde6ce7",
-			"label": "Albright Sketchbook",
-			"width": 1862,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://6482b3cbbf85391cd360e378d6939bc10fde6ce7",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/a9e973e5-f0fc-d2b9-66d2-1dbdae1c878c/full/full/0/default.jpg",
-					"width": 1862,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/a9e973e5-f0fc-d2b9-66d2-1dbdae1c878c",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://ed0225daa4f80e0dc6053ef0bf492f53fe969da0",
-			"label": "Albright Sketchbook",
-			"width": 1690,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://ed0225daa4f80e0dc6053ef0bf492f53fe969da0",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/0e219952-0750-e01f-865d-311a898568b9/full/full/0/default.jpg",
-					"width": 1690,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/0e219952-0750-e01f-865d-311a898568b9",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://1e6a6d82b976599aba8cba00ca33e366270e20d8",
-			"label": "Albright Sketchbook",
-			"width": 1898,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://1e6a6d82b976599aba8cba00ca33e366270e20d8",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/6bef7ebd-f71c-a9d1-f5b9-40975a83b3ee/full/full/0/default.jpg",
-					"width": 1898,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/6bef7ebd-f71c-a9d1-f5b9-40975a83b3ee",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://c6c381d2ffede1500ce584a3ff58b30a38d93021",
-			"label": "Albright Sketchbook",
-			"width": 1580,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://c6c381d2ffede1500ce584a3ff58b30a38d93021",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/6497eba8-4f09-1f29-107a-c88c161ea510/full/full/0/default.jpg",
-					"width": 1580,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/6497eba8-4f09-1f29-107a-c88c161ea510",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://7ee228a341480e9bbdf57405e157a3ee615e34dd",
-			"label": "Albright Sketchbook",
-			"width": 1899,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://7ee228a341480e9bbdf57405e157a3ee615e34dd",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/5e459489-b2be-5183-c857-51363431cb3a/full/full/0/default.jpg",
-					"width": 1899,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/5e459489-b2be-5183-c857-51363431cb3a",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://494d931b84863e7cc1015523a248627369e22613",
-			"label": "Albright Sketchbook",
-			"width": 1560,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://494d931b84863e7cc1015523a248627369e22613",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/0ffacf46-87c3-93ad-34a7-564f84f0ea30/full/full/0/default.jpg",
-					"width": 1560,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/0ffacf46-87c3-93ad-34a7-564f84f0ea30",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://9d0197f272f119f7f1730c94e04036490667a617",
-			"label": "Albright Sketchbook",
-			"width": 1894,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://9d0197f272f119f7f1730c94e04036490667a617",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/d78b87f6-41f2-5daa-3279-304578678959/full/full/0/default.jpg",
-					"width": 1894,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/d78b87f6-41f2-5daa-3279-304578678959",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://49a168095fa9a54a8bd204404b149a02adf961e7",
-			"label": "Albright Sketchbook",
-			"width": 1791,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://49a168095fa9a54a8bd204404b149a02adf961e7",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/01907f80-72dd-4b9b-7bab-11044f2df0a3/full/full/0/default.jpg",
-					"width": 1791,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/01907f80-72dd-4b9b-7bab-11044f2df0a3",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://d4ef7bb734be3b853a18dfd819bbdc1d18e13496",
-			"label": "Albright Sketchbook",
-			"width": 1196,
-			"height": 944,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://d4ef7bb734be3b853a18dfd819bbdc1d18e13496",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/79cf7326-93e1-e505-ed87-a100b9b3c7eb/full/full/0/default.jpg",
-					"width": 1196,
-					"height": 944,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/79cf7326-93e1-e505-ed87-a100b9b3c7eb",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://2c6029b8283d9ba466086fe5a64ab552144a6851",
-			"label": "Albright Sketchbook",
-			"width": 1535,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://2c6029b8283d9ba466086fe5a64ab552144a6851",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/9b7aa300-d464-3001-8e12-01268dce1657/full/full/0/default.jpg",
-					"width": 1535,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/9b7aa300-d464-3001-8e12-01268dce1657",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://81a9bdc12365ebb4525489f632e361b2c20110e5",
-			"label": "Albright Sketchbook",
-			"width": 1847,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://81a9bdc12365ebb4525489f632e361b2c20110e5",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/e82dd59c-5cb0-2623-248c-63252f2756e7/full/full/0/default.jpg",
-					"width": 1847,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/e82dd59c-5cb0-2623-248c-63252f2756e7",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://ce8f47115f059660cd52ed458b0a421301ad15fb",
-			"label": "Albright Sketchbook",
-			"width": 1799,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://ce8f47115f059660cd52ed458b0a421301ad15fb",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/d5eb2293-9ce5-b5d6-10e7-92690c534927/full/full/0/default.jpg",
-					"width": 1799,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/d5eb2293-9ce5-b5d6-10e7-92690c534927",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://e13d8b334a734c1ba82a4193f87e32fb7c3bad04",
-			"label": "Albright Sketchbook",
-			"width": 1887,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://e13d8b334a734c1ba82a4193f87e32fb7c3bad04",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/d1312f8a-9a94-016a-ba98-48f545562ac8/full/full/0/default.jpg",
-					"width": 1887,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/d1312f8a-9a94-016a-ba98-48f545562ac8",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://1ee7bc82c8b9d119509e8981c374c25cd27c38a4",
-			"label": "Albright Sketchbook",
-			"width": 1765,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://1ee7bc82c8b9d119509e8981c374c25cd27c38a4",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/64cea2dc-1e8f-d27e-af91-d747c11056b5/full/full/0/default.jpg",
-					"width": 1765,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/64cea2dc-1e8f-d27e-af91-d747c11056b5",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://3133a1f8489160e30a389b4aaaab03d65f1bf420",
-			"label": "Albright Sketchbook",
-			"width": 1848,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://3133a1f8489160e30a389b4aaaab03d65f1bf420",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/5b3dfa3e-9110-6cd6-309e-1f25ebecdf87/full/full/0/default.jpg",
-					"width": 1848,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/5b3dfa3e-9110-6cd6-309e-1f25ebecdf87",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://c8172ee2c1fc5c07aedfad6d1c915c202ddb72c8",
-			"label": "Albright Sketchbook",
-			"width": 1802,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://c8172ee2c1fc5c07aedfad6d1c915c202ddb72c8",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/4d28e993-d3cd-1f13-570b-b25b92526655/full/full/0/default.jpg",
-					"width": 1802,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/4d28e993-d3cd-1f13-570b-b25b92526655",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://3fcb3bf290bf39e47ef371d4be90e15853f98b2f",
-			"label": "Albright Sketchbook",
-			"width": 1847,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://3fcb3bf290bf39e47ef371d4be90e15853f98b2f",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/04fa2e1f-f80e-e1dd-03c5-bb7b1d5f77f3/full/full/0/default.jpg",
-					"width": 1847,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/04fa2e1f-f80e-e1dd-03c5-bb7b1d5f77f3",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://7a2ccec82b37c150501e20f55e3c623f99f46e7b",
-			"label": "Albright Sketchbook",
-			"width": 1802,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://7a2ccec82b37c150501e20f55e3c623f99f46e7b",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/25f24013-d6d7-4cf7-bf5c-d865f9e88e90/full/full/0/default.jpg",
-					"width": 1802,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/25f24013-d6d7-4cf7-bf5c-d865f9e88e90",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://a7f4d5669f9d3e3552b402c1a34a081384faa6aa",
-			"label": "Albright Sketchbook",
-			"width": 1847,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://a7f4d5669f9d3e3552b402c1a34a081384faa6aa",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/dfd54ad4-8f42-00e4-a804-43069d15fdd1/full/full/0/default.jpg",
-					"width": 1847,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/dfd54ad4-8f42-00e4-a804-43069d15fdd1",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://18546df7c0b939cf7b4a4960d8d4e311c72e8fe7",
-			"label": "Albright Sketchbook",
-			"width": 1765,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://18546df7c0b939cf7b4a4960d8d4e311c72e8fe7",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/524ffb84-de1e-f453-1147-ba04f4ab3132/full/full/0/default.jpg",
-					"width": 1765,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/524ffb84-de1e-f453-1147-ba04f4ab3132",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://8cf57d622523d078472cc9bfd63dffad838b432d",
-			"label": "Albright Sketchbook",
-			"width": 1848,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://8cf57d622523d078472cc9bfd63dffad838b432d",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/1e71eac6-6afe-0339-6716-b08dfc9b4c70/full/full/0/default.jpg",
-					"width": 1848,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/1e71eac6-6afe-0339-6716-b08dfc9b4c70",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://fc0afcb895c048c81f3b8b82e3ea46545bcb7373",
-			"label": "Albright Sketchbook",
-			"width": 1817,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://fc0afcb895c048c81f3b8b82e3ea46545bcb7373",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/541ecaa6-d3e8-115c-59d2-ae676d8db6b1/full/full/0/default.jpg",
-					"width": 1817,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/541ecaa6-d3e8-115c-59d2-ae676d8db6b1",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://f9e10c8072a27216cf153da479faa5c812abd32e",
-			"label": "Albright Sketchbook",
-			"width": 1850,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://f9e10c8072a27216cf153da479faa5c812abd32e",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/3a91f24f-fc32-32fc-f896-b2ec0d3dde13/full/full/0/default.jpg",
-					"width": 1850,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/3a91f24f-fc32-32fc-f896-b2ec0d3dde13",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://ad31204bb50ac9ef861b55545b3d782ed7f167c7",
-			"label": "Albright Sketchbook",
-			"width": 1802,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://ad31204bb50ac9ef861b55545b3d782ed7f167c7",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/935e2636-9ac4-e4b9-ad06-4a659faf4c25/full/full/0/default.jpg",
-					"width": 1802,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/935e2636-9ac4-e4b9-ad06-4a659faf4c25",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://c311336cb7c7de50b62b8b756db9b486f6a9637f",
-			"label": "Albright Sketchbook",
-			"width": 1847,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://c311336cb7c7de50b62b8b756db9b486f6a9637f",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/60339e7f-07d9-f9b0-00ab-e5300530cd99/full/full/0/default.jpg",
-					"width": 1847,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/60339e7f-07d9-f9b0-00ab-e5300530cd99",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://365bdacb0977292206d3748d10067622674c0e8c",
-			"label": "Albright Sketchbook",
-			"width": 1697,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://365bdacb0977292206d3748d10067622674c0e8c",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/71fb8c08-fd66-3a9e-692a-4eeb6761ed89/full/full/0/default.jpg",
-					"width": 1697,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/71fb8c08-fd66-3a9e-692a-4eeb6761ed89",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://8b39e032d0164b281b05d360fabd5dae84f8c11d",
-			"label": "Albright Sketchbook",
-			"width": 1870,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://8b39e032d0164b281b05d360fabd5dae84f8c11d",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/5419d32c-387d-93a2-1b2f-99dfdb04c910/full/full/0/default.jpg",
-					"width": 1870,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/5419d32c-387d-93a2-1b2f-99dfdb04c910",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://35ad905cd8dbb4c75484e0546750f3141dc050e5",
-			"label": "Albright Sketchbook",
-			"width": 1742,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://35ad905cd8dbb4c75484e0546750f3141dc050e5",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/b6c3bbff-065e-9dca-693e-b83a886857ea/full/full/0/default.jpg",
-					"width": 1742,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/b6c3bbff-065e-9dca-693e-b83a886857ea",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://9662308279df52bfb4caf5bcc4b1bdac0d522a15",
-			"label": "Albright Sketchbook",
-			"width": 1866,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://9662308279df52bfb4caf5bcc4b1bdac0d522a15",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/3acc0f06-b0b8-0445-f40c-f54ce3ef2fb9/full/full/0/default.jpg",
-					"width": 1866,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/3acc0f06-b0b8-0445-f40c-f54ce3ef2fb9",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://b4ab154c73a6d3fb0bad4c41dfb1e1bfdf832453",
-			"label": "Albright Sketchbook",
-			"width": 1697,
-			"height": 1184,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://b4ab154c73a6d3fb0bad4c41dfb1e1bfdf832453",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/ad7eb971-3afe-1b13-71b2-ada9d607428e/full/full/0/default.jpg",
-					"width": 1697,
-					"height": 1184,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/ad7eb971-3afe-1b13-71b2-ada9d607428e",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://bd3d5f935a92b86151a9e4936cee8863d57a9987",
-			"label": "Albright Sketchbook",
-			"width": 1697,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://bd3d5f935a92b86151a9e4936cee8863d57a9987",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/d58266cd-5e36-dd61-7499-231f7e956293/full/full/0/default.jpg",
-					"width": 1697,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/d58266cd-5e36-dd61-7499-231f7e956293",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://41003da4f6001838497244bed9e02c10b3ad9b71",
-			"label": "Albright Sketchbook",
-			"width": 1870,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://41003da4f6001838497244bed9e02c10b3ad9b71",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/48d57111-8af6-b493-daf4-3059d6e47377/full/full/0/default.jpg",
-					"width": 1870,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/48d57111-8af6-b493-daf4-3059d6e47377",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://af67545757284d2bdc535e5bbc0a230c1e53ae30",
-			"label": "Albright Sketchbook",
-			"width": 1697,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://af67545757284d2bdc535e5bbc0a230c1e53ae30",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/92a3dc45-19be-7075-b4b5-e69f9d43568b/full/full/0/default.jpg",
-					"width": 1697,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/92a3dc45-19be-7075-b4b5-e69f9d43568b",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://5aee367464c762e60fca93f8a4e389b8574e5c1d",
-			"label": "Albright Sketchbook",
-			"width": 1870,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://5aee367464c762e60fca93f8a4e389b8574e5c1d",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/1c204ec2-6fa6-4fe7-41a0-3f93bf447b18/full/full/0/default.jpg",
-					"width": 1870,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/1c204ec2-6fa6-4fe7-41a0-3f93bf447b18",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://994c62ca5dab33019eaea7c4e0fb3918128f79f8",
-			"label": "Albright Sketchbook",
-			"width": 1802,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://994c62ca5dab33019eaea7c4e0fb3918128f79f8",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/4db9c035-f502-e407-3b01-24c0630bb65d/full/full/0/default.jpg",
-					"width": 1802,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/4db9c035-f502-e407-3b01-24c0630bb65d",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://967d36f77797a699dc94203972bcb0e55183740d",
-			"label": "Albright Sketchbook",
-			"width": 1847,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://967d36f77797a699dc94203972bcb0e55183740d",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/531a378f-5abc-47f9-6d8f-9e78f91774dc/full/full/0/default.jpg",
-					"width": 1847,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/531a378f-5abc-47f9-6d8f-9e78f91774dc",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://8cb19c69a31102eb3eceee994a2c766386e2be45",
-			"label": "Albright Sketchbook",
-			"width": 1724,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://8cb19c69a31102eb3eceee994a2c766386e2be45",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/95277396-eb38-8ab5-93a4-b32b3383da8e/full/full/0/default.jpg",
-					"width": 1724,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/95277396-eb38-8ab5-93a4-b32b3383da8e",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://2ac2f378a38e22ab5d7df949f334580cabe0242c",
-			"label": "Albright Sketchbook",
-			"width": 1834,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://2ac2f378a38e22ab5d7df949f334580cabe0242c",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/b613a563-5f51-54eb-ac1a-182fc120d185/full/full/0/default.jpg",
-					"width": 1834,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/b613a563-5f51-54eb-ac1a-182fc120d185",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://499527b49cff644b4459fb127874d3b41cdafb4a",
-			"label": "Albright Sketchbook",
-			"width": 1802,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://499527b49cff644b4459fb127874d3b41cdafb4a",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/d351ccd8-2b65-4572-8eaa-be6e9a6c31c8/full/full/0/default.jpg",
-					"width": 1802,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/d351ccd8-2b65-4572-8eaa-be6e9a6c31c8",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://63821a9d7184309b6eab4e3f301e2f5007d49234",
-			"label": "Albright Sketchbook",
-			"width": 1847,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://63821a9d7184309b6eab4e3f301e2f5007d49234",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/cb18f120-4b4a-06d9-aa60-ddce01c4f713/full/full/0/default.jpg",
-					"width": 1847,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/cb18f120-4b4a-06d9-aa60-ddce01c4f713",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://f4baad8912f49cb7f18a5a5223789c8fc0dd2746",
-			"label": "Albright Sketchbook",
-			"width": 1760,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://f4baad8912f49cb7f18a5a5223789c8fc0dd2746",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/2d917cd4-2575-afcc-925f-8aeb823eb003/full/full/0/default.jpg",
-					"width": 1760,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/2d917cd4-2575-afcc-925f-8aeb823eb003",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://12967d783655abc03a10a7d41a8a6822d3a3578e",
-			"label": "Albright Sketchbook",
-			"width": 1819,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://12967d783655abc03a10a7d41a8a6822d3a3578e",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/e9e765da-3af7-67b8-ccfd-c432c1ea1722/full/full/0/default.jpg",
-					"width": 1819,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/e9e765da-3af7-67b8-ccfd-c432c1ea1722",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://5294a66b0c46be21c4f12c83db3964ab828bc0a7",
-			"label": "Albright Sketchbook",
-			"width": 1584,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://5294a66b0c46be21c4f12c83db3964ab828bc0a7",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/904e2f68-4098-87b1-579f-5d0720de9c7f/full/full/0/default.jpg",
-					"width": 1584,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/904e2f68-4098-87b1-579f-5d0720de9c7f",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://e0325fc5e3c1e414befb6b96cb2cf3fa723c08e1",
-			"label": "Albright Sketchbook",
-			"width": 1838,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://e0325fc5e3c1e414befb6b96cb2cf3fa723c08e1",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/f4f920a0-58e3-1aea-7b17-f8ee49c8a657/full/full/0/default.jpg",
-					"width": 1838,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/f4f920a0-58e3-1aea-7b17-f8ee49c8a657",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://537ba1c018c94ebaca1271a33440b4ba3128688d",
-			"label": "Albright Sketchbook",
-			"width": 1748,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://537ba1c018c94ebaca1271a33440b4ba3128688d",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/86e56ec8-5cfa-56a6-e6e7-3cf7318979d7/full/full/0/default.jpg",
-					"width": 1748,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/86e56ec8-5cfa-56a6-e6e7-3cf7318979d7",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://1baf79bd60ff9e4a8444d1ee42cba645e21e884b",
-			"label": "Albright Sketchbook",
-			"width": 1881,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://1baf79bd60ff9e4a8444d1ee42cba645e21e884b",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/ce89e02a-0a46-86c2-e7c8-bd6db42d7e6c/full/full/0/default.jpg",
-					"width": 1881,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/ce89e02a-0a46-86c2-e7c8-bd6db42d7e6c",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://9dc9c274098f867559429863e840001190166807",
-			"label": "Albright Sketchbook",
-			"width": 1765,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://9dc9c274098f867559429863e840001190166807",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/84257604-a377-5d50-31ab-c5cef779fa71/full/full/0/default.jpg",
-					"width": 1765,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/84257604-a377-5d50-31ab-c5cef779fa71",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://c43322c8138b3d0b0591131b3c4e1bd1c5c2eaff",
-			"label": "Albright Sketchbook",
-			"width": 1848,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://c43322c8138b3d0b0591131b3c4e1bd1c5c2eaff",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/70f9af2d-13a1-ecf3-6913-a98ef65df84d/full/full/0/default.jpg",
-					"width": 1848,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/70f9af2d-13a1-ecf3-6913-a98ef65df84d",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://4a5a9d42e2c1bb046a7dca256abadda77273390e",
-			"label": "Albright Sketchbook",
-			"width": 1817,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://4a5a9d42e2c1bb046a7dca256abadda77273390e",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/3c905a28-f9a1-6c07-720b-938fcf52abcf/full/full/0/default.jpg",
-					"width": 1817,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/3c905a28-f9a1-6c07-720b-938fcf52abcf",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://edf4b517a21de08df9d50c33db63a6873eaa5306",
-			"label": "Albright Sketchbook",
-			"width": 1850,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://edf4b517a21de08df9d50c33db63a6873eaa5306",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/a379efc3-440a-bb8a-ab2b-37bb8ac8ffc1/full/full/0/default.jpg",
-					"width": 1850,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/a379efc3-440a-bb8a-ab2b-37bb8ac8ffc1",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://1822b09bb05404599ec3a7964d2200ea6f33ac1d",
-			"label": "Albright Sketchbook",
-			"width": 1697,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://1822b09bb05404599ec3a7964d2200ea6f33ac1d",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/82f9f54e-c7be-a0a2-845e-96bd57484aaf/full/full/0/default.jpg",
-					"width": 1697,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/82f9f54e-c7be-a0a2-845e-96bd57484aaf",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://3c84f9596fc8ec3d9413868a17fb59d122b76f74",
-			"label": "Albright Sketchbook",
-			"width": 1870,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://3c84f9596fc8ec3d9413868a17fb59d122b76f74",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/a716178c-7854-0b09-1708-f99106362a8a/full/full/0/default.jpg",
-					"width": 1870,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/a716178c-7854-0b09-1708-f99106362a8a",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://9dfeae0bad62a53e48fc09abeb9cad5c7cdbeb7d",
-			"label": "Albright Sketchbook",
-			"width": 1802,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://9dfeae0bad62a53e48fc09abeb9cad5c7cdbeb7d",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/8ec62c1d-7bd7-11e1-d527-4f740e550c52/full/full/0/default.jpg",
-					"width": 1802,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/8ec62c1d-7bd7-11e1-d527-4f740e550c52",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://a6e7748cd41fbe8643bb74b325005db10d09a44c",
-			"label": "Albright Sketchbook",
-			"width": 1847,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://a6e7748cd41fbe8643bb74b325005db10d09a44c",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/9d5a7a15-faa3-54e2-f82c-d8a702aae855/full/full/0/default.jpg",
-					"width": 1847,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/9d5a7a15-faa3-54e2-f82c-d8a702aae855",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://6f0181328ceef75bc8f761d8b32667f608e48731",
-			"label": "Albright Sketchbook",
-			"width": 1758,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://6f0181328ceef75bc8f761d8b32667f608e48731",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/848ad78d-661f-b777-b3f6-3a5fe1a63215/full/full/0/default.jpg",
-					"width": 1758,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/848ad78d-661f-b777-b3f6-3a5fe1a63215",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://9a7b9697a12acb15b94cb4b652f3697e6828a714",
-			"label": "Albright Sketchbook",
-			"width": 1895,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://9a7b9697a12acb15b94cb4b652f3697e6828a714",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/9bda2b4f-fe0a-1fbd-4134-b2e9c21f784d/full/full/0/default.jpg",
-					"width": 1895,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/9bda2b4f-fe0a-1fbd-4134-b2e9c21f784d",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://40aaeee66e8248ed07eb0dfa9b5d5ec6f1d61ab3",
-			"label": "Albright Sketchbook",
-			"width": 1697,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://40aaeee66e8248ed07eb0dfa9b5d5ec6f1d61ab3",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/1f70adfd-92a9-2058-15d3-7b039a962527/full/full/0/default.jpg",
-					"width": 1697,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/1f70adfd-92a9-2058-15d3-7b039a962527",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://d474e4c990d1ec102c04f19b9046be925728467d",
-			"label": "Albright Sketchbook",
-			"width": 1870,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://d474e4c990d1ec102c04f19b9046be925728467d",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/4ae0051a-21e8-8cde-56bb-8b08ccdf367c/full/full/0/default.jpg",
-					"width": 1870,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/4ae0051a-21e8-8cde-56bb-8b08ccdf367c",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://04505a8071c5bb00d90dc34250421a137bae9298",
-			"label": "Albright Sketchbook",
-			"width": 1752,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://04505a8071c5bb00d90dc34250421a137bae9298",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/2e93e799-afc5-24ea-7958-1e6985b3b274/full/full/0/default.jpg",
-					"width": 1752,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/2e93e799-afc5-24ea-7958-1e6985b3b274",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://7437ba043e6b6488f71175733af3f44d90ec0716",
-			"label": "Albright Sketchbook",
-			"width": 1926,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://7437ba043e6b6488f71175733af3f44d90ec0716",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/5e59ebda-deb2-7b15-5cb2-3042688fd833/full/full/0/default.jpg",
-					"width": 1926,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/5e59ebda-deb2-7b15-5cb2-3042688fd833",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://eac5892f6bb88c68830ad673cd9591745813e268",
-			"label": "Albright Sketchbook",
-			"width": 1752,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://eac5892f6bb88c68830ad673cd9591745813e268",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/1b8f5423-6539-b42f-66ac-dc4d02de0b00/full/full/0/default.jpg",
-					"width": 1752,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/1b8f5423-6539-b42f-66ac-dc4d02de0b00",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://050ad432edd03df826eb28286598c9c4ef97cd8a",
-			"label": "Albright Sketchbook",
-			"width": 1926,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://050ad432edd03df826eb28286598c9c4ef97cd8a",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/4d8df8cf-abea-e96f-ceb3-c85007f486d0/full/full/0/default.jpg",
-					"width": 1926,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/4d8df8cf-abea-e96f-ceb3-c85007f486d0",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://741554f1cbc47a9ea20c9ebe6447691d43f4f273",
-			"label": "Albright Sketchbook",
-			"width": 1752,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://741554f1cbc47a9ea20c9ebe6447691d43f4f273",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/40537323-3265-b3dc-ccaa-a79ae54f2be5/full/full/0/default.jpg",
-					"width": 1752,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/40537323-3265-b3dc-ccaa-a79ae54f2be5",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://ef0d4e536eebf20cd25129d50fac8e3385e7b1d7",
-			"label": "Albright Sketchbook",
-			"width": 1926,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://ef0d4e536eebf20cd25129d50fac8e3385e7b1d7",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/0b5cb5e4-ff8d-d1d1-c92e-4777aeae28a6/full/full/0/default.jpg",
-					"width": 1926,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/0b5cb5e4-ff8d-d1d1-c92e-4777aeae28a6",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://1679f73a386431805ca225af3e5ac604f3a39b20",
-			"label": "Albright Sketchbook",
-			"width": 1826,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://1679f73a386431805ca225af3e5ac604f3a39b20",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/924deb33-bff8-e339-33ec-166a7bf79c22/full/full/0/default.jpg",
-					"width": 1826,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/924deb33-bff8-e339-33ec-166a7bf79c22",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://90c474eaa5aec102513b65ff54a9b18d2d435abf",
-			"label": "Albright Sketchbook",
-			"width": 1900,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://90c474eaa5aec102513b65ff54a9b18d2d435abf",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/f957c91f-d018-1567-2d6c-6b8fa6bb9ef4/full/full/0/default.jpg",
-					"width": 1900,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/f957c91f-d018-1567-2d6c-6b8fa6bb9ef4",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://dc28c3e0843bc197ce153000f7184679dffeb835",
-			"label": "Albright Sketchbook",
-			"width": 1765,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://dc28c3e0843bc197ce153000f7184679dffeb835",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/fe4a52ce-ae6d-d9ca-6180-23ab600270ed/full/full/0/default.jpg",
-					"width": 1765,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/fe4a52ce-ae6d-d9ca-6180-23ab600270ed",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://883560efd3bc425d7362db7733e00e252ef773f3",
-			"label": "Albright Sketchbook",
-			"width": 1848,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://883560efd3bc425d7362db7733e00e252ef773f3",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/6f5b40a0-e580-8fb4-f265-993635eaaf82/full/full/0/default.jpg",
-					"width": 1848,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/6f5b40a0-e580-8fb4-f265-993635eaaf82",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://06aceab664f023b48b93f5169fffd4d885eb0bc0",
-			"label": "Albright Sketchbook",
-			"width": 1850,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://06aceab664f023b48b93f5169fffd4d885eb0bc0",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/0d6f635f-cac2-8d2e-94a5-d5329827c996/full/full/0/default.jpg",
-					"width": 1850,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/0d6f635f-cac2-8d2e-94a5-d5329827c996",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://cdfa0aa78fa6e44e207f2476fdc8b7166a7954dd",
-			"label": "Albright Sketchbook",
-			"width": 1912,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://cdfa0aa78fa6e44e207f2476fdc8b7166a7954dd",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/402080bc-c5df-806a-5c9e-9ecc9049b5da/full/full/0/default.jpg",
-					"width": 1912,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/402080bc-c5df-806a-5c9e-9ecc9049b5da",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://7e79577995840944c8ad667ede15a4b142cd139f",
-			"label": "Albright Sketchbook",
-			"width": 1843,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://7e79577995840944c8ad667ede15a4b142cd139f",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/468e48c9-ecbe-5d15-ff5f-4f487bfce6de/full/full/0/default.jpg",
-					"width": 1843,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/468e48c9-ecbe-5d15-ff5f-4f487bfce6de",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://028da1d02556b240464a9c4d6a04e803de6df7df",
-			"label": "Albright Sketchbook",
-			"width": 1808,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://028da1d02556b240464a9c4d6a04e803de6df7df",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/8ff82c84-a58e-3079-c965-dd72b9cc7fe4/full/full/0/default.jpg",
-					"width": 1808,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/8ff82c84-a58e-3079-c965-dd72b9cc7fe4",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}, {
-			"@type": "sc:Canvas",
-			"@id": "http://24ea0b04e1b0aa869df4c13cdd4662f4edca36dc",
-			"label": "Albright Sketchbook",
-			"width": 1796,
-			"height": 1200,
-			"images": [{
-				"@type": "oa:Annotation",
-				"motivation": "sc:painting",
-				"on": "http://24ea0b04e1b0aa869df4c13cdd4662f4edca36dc",
-				"resource": {
-					"@type": "dctypes:Image",
-					"@id": "https://lakeimagesweb.artic.edu/iiif/2/c6340c55-d80e-640c-6eec-30b74fce6681/full/full/0/default.jpg",
-					"width": 1796,
-					"height": 1200,
-					"service": {
-						"@context": "http://iiif.io/api/image/2/context.json",
-						"@id": "https://lakeimagesweb.artic.edu/iiif/2/c6340c55-d80e-640c-6eec-30b74fce6681",
-						"profile": "http://iiif.io/api/image/2/level2.json"
-					}
-				}
-			}]
-		}]
-	}]
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://533d3390-f393-4516-8f04-37171d99d7c0",
+  "@type": "sc:Manifest",
+  "label": "Medial Sketchbook",
+  "metadata": [],
+  "description": [
+    {
+      "value": "Sketchbook by Ivan Albright",
+      "language": "en"
+    }
+  ],
+  "attribution": "Copyright Art Institute of Chicago",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://d8eb23a28ab22e96aa2773f6915020358154b114",
+          "label": "Albright Sketchbook",
+          "width": 1830,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://d8eb23a28ab22e96aa2773f6915020358154b114",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/d161ab0f-17c8-58ac-f58f-996c78278540/full/full/0/default.jpg",
+                "width": 1830,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/d161ab0f-17c8-58ac-f58f-996c78278540",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://5cb4d2e94d1095a5d551bb301bed1795efd8675d",
+          "label": "Albright Sketchbook",
+          "width": 1856,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://5cb4d2e94d1095a5d551bb301bed1795efd8675d",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/f879b7a8-1c9c-8e3f-0848-5dc3da853f9f/full/full/0/default.jpg",
+                "width": 1856,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/f879b7a8-1c9c-8e3f-0848-5dc3da853f9f",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://13c5c62a5fd801270eff8926cdcf456158a734f4",
+          "label": "Albright Sketchbook",
+          "width": 1919,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://13c5c62a5fd801270eff8926cdcf456158a734f4",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/b18e51b3-53df-069d-a18e-1d2b6da3172c/full/full/0/default.jpg",
+                "width": 1919,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/b18e51b3-53df-069d-a18e-1d2b6da3172c",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://17691c05e4a221258bf66b0a3be5d8d2834102eb",
+          "label": "Albright Sketchbook",
+          "width": 1889,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://17691c05e4a221258bf66b0a3be5d8d2834102eb",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/0bf0c24e-7500-048e-e93d-0af29791edf9/full/full/0/default.jpg",
+                "width": 1889,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/0bf0c24e-7500-048e-e93d-0af29791edf9",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://52617896dc5661df8989827522105a9e24cdfb4f",
+          "label": "Albright Sketchbook",
+          "width": 1925,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://52617896dc5661df8989827522105a9e24cdfb4f",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/b642eb61-8fd6-6dce-29c5-b11a9fd1468c/full/full/0/default.jpg",
+                "width": 1925,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/b642eb61-8fd6-6dce-29c5-b11a9fd1468c",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://fa29263dc15568064179bc90eb797a61797febe9",
+          "label": "Albright Sketchbook",
+          "width": 1888,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://fa29263dc15568064179bc90eb797a61797febe9",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/fdb66d95-07f0-2057-be69-65327f084572/full/full/0/default.jpg",
+                "width": 1888,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/fdb66d95-07f0-2057-be69-65327f084572",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://a0205f8e708a7e57b95b1ec2cdd680862849090a",
+          "label": "Albright Sketchbook",
+          "width": 1922,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://a0205f8e708a7e57b95b1ec2cdd680862849090a",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/751154ed-3789-6a92-d2e8-55675779beb9/full/full/0/default.jpg",
+                "width": 1922,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/751154ed-3789-6a92-d2e8-55675779beb9",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://784b5623c9233e961b99dde52d848220b397b3ac",
+          "label": "Albright Sketchbook",
+          "width": 1889,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://784b5623c9233e961b99dde52d848220b397b3ac",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/9655f56f-167f-6580-9b7f-4a576644a5b0/full/full/0/default.jpg",
+                "width": 1889,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/9655f56f-167f-6580-9b7f-4a576644a5b0",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://22525d2c8b690714909ff9fe46a2d5253a39f92f",
+          "label": "Albright Sketchbook",
+          "width": 1917,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://22525d2c8b690714909ff9fe46a2d5253a39f92f",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/2fedfc2f-6a08-d4b1-ea9a-074ad49ce41b/full/full/0/default.jpg",
+                "width": 1917,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/2fedfc2f-6a08-d4b1-ea9a-074ad49ce41b",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://54aab311794087e66e0b9110e302ef16015398ce",
+          "label": "Albright Sketchbook",
+          "width": 1886,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://54aab311794087e66e0b9110e302ef16015398ce",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/6cba1fbb-002f-8564-5bda-bc07fd0b87ad/full/full/0/default.jpg",
+                "width": 1886,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/6cba1fbb-002f-8564-5bda-bc07fd0b87ad",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://23d0f3d549d8dbbd982413299b12004dea3e868c",
+          "label": "Albright Sketchbook",
+          "width": 1908,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://23d0f3d549d8dbbd982413299b12004dea3e868c",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/1fb18a93-3ae7-39f0-4122-0b5435bb7946/full/full/0/default.jpg",
+                "width": 1908,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/1fb18a93-3ae7-39f0-4122-0b5435bb7946",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://d4ac915f4c3a56c32b44d4fd4b6d142b76d610b3",
+          "label": "Albright Sketchbook",
+          "width": 1894,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://d4ac915f4c3a56c32b44d4fd4b6d142b76d610b3",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/20bb88da-9df5-27e2-8603-5f3460faa15d/full/full/0/default.jpg",
+                "width": 1894,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/20bb88da-9df5-27e2-8603-5f3460faa15d",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://0410580a9656cc654ef8fae0f7d51526b7d47914",
+          "label": "Albright Sketchbook",
+          "width": 1906,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://0410580a9656cc654ef8fae0f7d51526b7d47914",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/942d7b5a-c8ac-46ec-dc1e-5023eb8c01aa/full/full/0/default.jpg",
+                "width": 1906,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/942d7b5a-c8ac-46ec-dc1e-5023eb8c01aa",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://8da92daa063063195e57ac7f459a7c3f1a37cec9",
+          "label": "Albright Sketchbook",
+          "width": 1895,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://8da92daa063063195e57ac7f459a7c3f1a37cec9",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/f49a1b50-0a62-7674-9cb4-af9b2900732d/full/full/0/default.jpg",
+                "width": 1895,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/f49a1b50-0a62-7674-9cb4-af9b2900732d",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://c5108c9d90ec3a96a9376e0d808bb2975588d532",
+          "label": "Albright Sketchbook",
+          "width": 1892,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://c5108c9d90ec3a96a9376e0d808bb2975588d532",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/f5f175e7-b078-f6f3-1573-a015a660cfa6/full/full/0/default.jpg",
+                "width": 1892,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/f5f175e7-b078-f6f3-1573-a015a660cfa6",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://acbe51132533ef0d1d961319b9d1ca1637d4e0dc",
+          "label": "Albright Sketchbook",
+          "width": 1906,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://acbe51132533ef0d1d961319b9d1ca1637d4e0dc",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/84e71041-9824-6c6b-dab2-bb722eed9744/full/full/0/default.jpg",
+                "width": 1906,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/84e71041-9824-6c6b-dab2-bb722eed9744",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://ba9959f546ee48d1a59f3cb3f3b288b3dd5c3d44",
+          "label": "Albright Sketchbook",
+          "width": 1891,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://ba9959f546ee48d1a59f3cb3f3b288b3dd5c3d44",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/9d52f18e-ce56-3e5e-9b60-9db2ee1a8fd6/full/full/0/default.jpg",
+                "width": 1891,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/9d52f18e-ce56-3e5e-9b60-9db2ee1a8fd6",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://1134038394712214361e9856e856818fa8211a73",
+          "label": "Albright Sketchbook",
+          "width": 1906,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://1134038394712214361e9856e856818fa8211a73",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/4079f88d-18ae-e4a0-21dc-28c564a2398e/full/full/0/default.jpg",
+                "width": 1906,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/4079f88d-18ae-e4a0-21dc-28c564a2398e",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://d2d429a7589ce886dff3095e7a37f6f7d2bef361",
+          "label": "Albright Sketchbook",
+          "width": 1899,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://d2d429a7589ce886dff3095e7a37f6f7d2bef361",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/af91a200-e02d-94d1-0f8b-0eb3fcf54c07/full/full/0/default.jpg",
+                "width": 1899,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/af91a200-e02d-94d1-0f8b-0eb3fcf54c07",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://9677abd609301e114a74de6c4e7c76b7f74e9be3",
+          "label": "Albright Sketchbook",
+          "width": 1629,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://9677abd609301e114a74de6c4e7c76b7f74e9be3",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/94f6e40d-4036-e89b-5f31-208513238bbf/full/full/0/default.jpg",
+                "width": 1629,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/94f6e40d-4036-e89b-5f31-208513238bbf",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://889f079d22a7f335ea55be50cfca105249903159",
+          "label": "Albright Sketchbook",
+          "width": 1905,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://889f079d22a7f335ea55be50cfca105249903159",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/b2d38ab3-d5e0-a6d4-2219-35a9163263a7/full/full/0/default.jpg",
+                "width": 1905,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/b2d38ab3-d5e0-a6d4-2219-35a9163263a7",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://7af93614168a0dd845107db8b6c13dcddde4d578",
+          "label": "Albright Sketchbook",
+          "width": 1642,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://7af93614168a0dd845107db8b6c13dcddde4d578",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/74a6da08-0374-0f9c-6b81-d5e37a6da2f3/full/full/0/default.jpg",
+                "width": 1642,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/74a6da08-0374-0f9c-6b81-d5e37a6da2f3",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://3ff8b9cd17c851fe33cea7edf508983716dc0c9d",
+          "label": "Albright Sketchbook",
+          "width": 1914,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://3ff8b9cd17c851fe33cea7edf508983716dc0c9d",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/ff0a6aea-1ac7-e911-b969-f4f4a1eb2fea/full/full/0/default.jpg",
+                "width": 1914,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/ff0a6aea-1ac7-e911-b969-f4f4a1eb2fea",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://f6085236fc3122a33797b7124ba3eeee6afa1b73",
+          "label": "Albright Sketchbook",
+          "width": 1685,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://f6085236fc3122a33797b7124ba3eeee6afa1b73",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/b55e0363-d8ae-7df7-2571-d841f4e6b5d2/full/full/0/default.jpg",
+                "width": 1685,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/b55e0363-d8ae-7df7-2571-d841f4e6b5d2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://b163e91f452937dd5b960f82e039613d6fbdc771",
+          "label": "Albright Sketchbook",
+          "width": 1892,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://b163e91f452937dd5b960f82e039613d6fbdc771",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/b54b3d86-c76c-2f58-a132-a70d6e95854b/full/full/0/default.jpg",
+                "width": 1892,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/b54b3d86-c76c-2f58-a132-a70d6e95854b",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://e3948a44c0b9355128ec30e599ab8c9ec03b881f",
+          "label": "Albright Sketchbook",
+          "width": 1682,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://e3948a44c0b9355128ec30e599ab8c9ec03b881f",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/1ed94ea5-a062-6246-43f1-48fa8e75942e/full/full/0/default.jpg",
+                "width": 1682,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/1ed94ea5-a062-6246-43f1-48fa8e75942e",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://07b31320ad84042a1f4916dcc3f7c5a5472450a1",
+          "label": "Albright Sketchbook",
+          "width": 1913,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://07b31320ad84042a1f4916dcc3f7c5a5472450a1",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/bd106983-cab4-6778-7f1d-b529f2440da3/full/full/0/default.jpg",
+                "width": 1913,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/bd106983-cab4-6778-7f1d-b529f2440da3",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://9a9caa32b1c65a1eb8c66d3a96dcba935ffe0efe",
+          "label": "Albright Sketchbook",
+          "width": 1719,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://9a9caa32b1c65a1eb8c66d3a96dcba935ffe0efe",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/c653cdcf-46dd-6b6c-a592-9288db3d0140/full/full/0/default.jpg",
+                "width": 1719,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/c653cdcf-46dd-6b6c-a592-9288db3d0140",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://bf25cded81a4c17fbcbeb0ac17b730e4a091888e",
+          "label": "Albright Sketchbook",
+          "width": 1912,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://bf25cded81a4c17fbcbeb0ac17b730e4a091888e",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/f8a7f59f-3701-0295-21e4-e28cf23784ec/full/full/0/default.jpg",
+                "width": 1912,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/f8a7f59f-3701-0295-21e4-e28cf23784ec",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://2176559b9fc8a97224ad94b917d2940b8836343b",
+          "label": "Albright Sketchbook",
+          "width": 1720,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://2176559b9fc8a97224ad94b917d2940b8836343b",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/3f8c436d-81dc-350e-a7d3-cb12078e0291/full/full/0/default.jpg",
+                "width": 1720,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/3f8c436d-81dc-350e-a7d3-cb12078e0291",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://f8a2c6ee9503963703bec6cf7c19ccb9530e0d69",
+          "label": "Albright Sketchbook",
+          "width": 1906,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://f8a2c6ee9503963703bec6cf7c19ccb9530e0d69",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/f5427b17-cb0d-56a3-70b1-d475424eaddd/full/full/0/default.jpg",
+                "width": 1906,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/f5427b17-cb0d-56a3-70b1-d475424eaddd",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://5f9269ac89189c0a0a154f69b04243c7109d3fe7",
+          "label": "Albright Sketchbook",
+          "width": 1763,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://5f9269ac89189c0a0a154f69b04243c7109d3fe7",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/3c5ab6d4-e946-e87c-7c03-9e554cf97c34/full/full/0/default.jpg",
+                "width": 1763,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/3c5ab6d4-e946-e87c-7c03-9e554cf97c34",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://12faf370424ffe09b098cff77a9bc23d0a038445",
+          "label": "Albright Sketchbook",
+          "width": 1905,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://12faf370424ffe09b098cff77a9bc23d0a038445",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/70572dd9-fc63-44c7-3209-77de0eafd1c7/full/full/0/default.jpg",
+                "width": 1905,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/70572dd9-fc63-44c7-3209-77de0eafd1c7",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://4f96df8cd75b218525b10acfc94c4bc42e5ea5a7",
+          "label": "Albright Sketchbook",
+          "width": 1797,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://4f96df8cd75b218525b10acfc94c4bc42e5ea5a7",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/ef237eb2-bfb4-aadd-c8d3-c7cfacbb8deb/full/full/0/default.jpg",
+                "width": 1797,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/ef237eb2-bfb4-aadd-c8d3-c7cfacbb8deb",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://9e9970606e46f262004c28f5c45af207af4111e3",
+          "label": "Albright Sketchbook",
+          "width": 1883,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://9e9970606e46f262004c28f5c45af207af4111e3",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/d4219c3a-b994-0edb-3b11-980f3310c792/full/full/0/default.jpg",
+                "width": 1883,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/d4219c3a-b994-0edb-3b11-980f3310c792",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://cc10e96c05f8b24442fe68c1af4d789b99036bf4",
+          "label": "Albright Sketchbook",
+          "width": 1790,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://cc10e96c05f8b24442fe68c1af4d789b99036bf4",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/2b8315a6-927a-a960-41e1-329af8b5b06c/full/full/0/default.jpg",
+                "width": 1790,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/2b8315a6-927a-a960-41e1-329af8b5b06c",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://a008c812d5df6597fcbc101fbba3eee77d964595",
+          "label": "Albright Sketchbook",
+          "width": 1861,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://a008c812d5df6597fcbc101fbba3eee77d964595",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/a70b0078-bad6-7580-84d5-7af459d199f3/full/full/0/default.jpg",
+                "width": 1861,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/a70b0078-bad6-7580-84d5-7af459d199f3",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://eada50987632f90866169c60c11447aa3b7c3cf0",
+          "label": "Albright Sketchbook",
+          "width": 1767,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://eada50987632f90866169c60c11447aa3b7c3cf0",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/b0630ab9-0f75-00fa-4430-f54e55a741aa/full/full/0/default.jpg",
+                "width": 1767,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/b0630ab9-0f75-00fa-4430-f54e55a741aa",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://a90a700a92d6455d150185f7b5b623684722ba61",
+          "label": "Albright Sketchbook",
+          "width": 1870,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://a90a700a92d6455d150185f7b5b623684722ba61",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/5684d30e-527b-441d-7aa7-56868a7441d8/full/full/0/default.jpg",
+                "width": 1870,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/5684d30e-527b-441d-7aa7-56868a7441d8",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://5834d9386addd630ee64ebd38073086a699ac45b",
+          "label": "Albright Sketchbook",
+          "width": 1687,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://5834d9386addd630ee64ebd38073086a699ac45b",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/227f6e85-c4ee-3c72-772f-c1f33a7dfa50/full/full/0/default.jpg",
+                "width": 1687,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/227f6e85-c4ee-3c72-772f-c1f33a7dfa50",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://6482b3cbbf85391cd360e378d6939bc10fde6ce7",
+          "label": "Albright Sketchbook",
+          "width": 1862,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://6482b3cbbf85391cd360e378d6939bc10fde6ce7",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/a9e973e5-f0fc-d2b9-66d2-1dbdae1c878c/full/full/0/default.jpg",
+                "width": 1862,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/a9e973e5-f0fc-d2b9-66d2-1dbdae1c878c",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://ed0225daa4f80e0dc6053ef0bf492f53fe969da0",
+          "label": "Albright Sketchbook",
+          "width": 1690,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://ed0225daa4f80e0dc6053ef0bf492f53fe969da0",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/0e219952-0750-e01f-865d-311a898568b9/full/full/0/default.jpg",
+                "width": 1690,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/0e219952-0750-e01f-865d-311a898568b9",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://1e6a6d82b976599aba8cba00ca33e366270e20d8",
+          "label": "Albright Sketchbook",
+          "width": 1898,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://1e6a6d82b976599aba8cba00ca33e366270e20d8",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/6bef7ebd-f71c-a9d1-f5b9-40975a83b3ee/full/full/0/default.jpg",
+                "width": 1898,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/6bef7ebd-f71c-a9d1-f5b9-40975a83b3ee",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://c6c381d2ffede1500ce584a3ff58b30a38d93021",
+          "label": "Albright Sketchbook",
+          "width": 1580,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://c6c381d2ffede1500ce584a3ff58b30a38d93021",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/6497eba8-4f09-1f29-107a-c88c161ea510/full/full/0/default.jpg",
+                "width": 1580,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/6497eba8-4f09-1f29-107a-c88c161ea510",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://7ee228a341480e9bbdf57405e157a3ee615e34dd",
+          "label": "Albright Sketchbook",
+          "width": 1899,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://7ee228a341480e9bbdf57405e157a3ee615e34dd",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/5e459489-b2be-5183-c857-51363431cb3a/full/full/0/default.jpg",
+                "width": 1899,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/5e459489-b2be-5183-c857-51363431cb3a",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://494d931b84863e7cc1015523a248627369e22613",
+          "label": "Albright Sketchbook",
+          "width": 1560,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://494d931b84863e7cc1015523a248627369e22613",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/0ffacf46-87c3-93ad-34a7-564f84f0ea30/full/full/0/default.jpg",
+                "width": 1560,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/0ffacf46-87c3-93ad-34a7-564f84f0ea30",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://9d0197f272f119f7f1730c94e04036490667a617",
+          "label": "Albright Sketchbook",
+          "width": 1894,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://9d0197f272f119f7f1730c94e04036490667a617",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/d78b87f6-41f2-5daa-3279-304578678959/full/full/0/default.jpg",
+                "width": 1894,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/d78b87f6-41f2-5daa-3279-304578678959",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://49a168095fa9a54a8bd204404b149a02adf961e7",
+          "label": "Albright Sketchbook",
+          "width": 1791,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://49a168095fa9a54a8bd204404b149a02adf961e7",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/01907f80-72dd-4b9b-7bab-11044f2df0a3/full/full/0/default.jpg",
+                "width": 1791,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/01907f80-72dd-4b9b-7bab-11044f2df0a3",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://d4ef7bb734be3b853a18dfd819bbdc1d18e13496",
+          "label": "Albright Sketchbook",
+          "width": 1196,
+          "height": 944,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://d4ef7bb734be3b853a18dfd819bbdc1d18e13496",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/79cf7326-93e1-e505-ed87-a100b9b3c7eb/full/full/0/default.jpg",
+                "width": 1196,
+                "height": 944,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/79cf7326-93e1-e505-ed87-a100b9b3c7eb",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://2c6029b8283d9ba466086fe5a64ab552144a6851",
+          "label": "Albright Sketchbook",
+          "width": 1535,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://2c6029b8283d9ba466086fe5a64ab552144a6851",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/9b7aa300-d464-3001-8e12-01268dce1657/full/full/0/default.jpg",
+                "width": 1535,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/9b7aa300-d464-3001-8e12-01268dce1657",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://81a9bdc12365ebb4525489f632e361b2c20110e5",
+          "label": "Albright Sketchbook",
+          "width": 1847,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://81a9bdc12365ebb4525489f632e361b2c20110e5",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/e82dd59c-5cb0-2623-248c-63252f2756e7/full/full/0/default.jpg",
+                "width": 1847,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/e82dd59c-5cb0-2623-248c-63252f2756e7",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://5294a66b0c46be21c4f12c83db3964ab828bc0a7",
+          "label": "Albright Sketchbook",
+          "width": 1584,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://5294a66b0c46be21c4f12c83db3964ab828bc0a7",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/904e2f68-4098-87b1-579f-5d0720de9c7f/full/full/0/default.jpg",
+                "width": 1584,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/904e2f68-4098-87b1-579f-5d0720de9c7f",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://e0325fc5e3c1e414befb6b96cb2cf3fa723c08e1",
+          "label": "Albright Sketchbook",
+          "width": 1838,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://e0325fc5e3c1e414befb6b96cb2cf3fa723c08e1",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/f4f920a0-58e3-1aea-7b17-f8ee49c8a657/full/full/0/default.jpg",
+                "width": 1838,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/f4f920a0-58e3-1aea-7b17-f8ee49c8a657",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://028da1d02556b240464a9c4d6a04e803de6df7df",
+          "label": "Albright Sketchbook",
+          "width": 1808,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://028da1d02556b240464a9c4d6a04e803de6df7df",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/8ff82c84-a58e-3079-c965-dd72b9cc7fe4/full/full/0/default.jpg",
+                "width": 1808,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/8ff82c84-a58e-3079-c965-dd72b9cc7fe4",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://24ea0b04e1b0aa869df4c13cdd4662f4edca36dc",
+          "label": "Albright Sketchbook",
+          "width": 1796,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://24ea0b04e1b0aa869df4c13cdd4662f4edca36dc",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/c6340c55-d80e-640c-6eec-30b74fce6681/full/full/0/default.jpg",
+                "width": 1796,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/c6340c55-d80e-640c-6eec-30b74fce6681",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
