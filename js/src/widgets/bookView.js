@@ -347,6 +347,7 @@
             //_this.element[0].find('.mirador-osd-go-home').css('opacity', 1);
             _this.setBounds();
              console.log('zoom',  _this.osdOptions.osdBounds);
+             console.log('reset', _this.element.find('.mirador-osd-go-home'))
           }, 300));
 
           _this.osd.addHandler('pan', $.debounce(function(){

@@ -1106,6 +1106,7 @@
       '</div>',
       '{{/if}}',
       '<div class="overlay"></div>',
+      '<p class="loading">Loading...</p>',
       '<div class="view-container {{#unless sidePanel}}focus-max-width{{/unless}}">',
       '<div class="bottomPanel">',
       '<div class="status">',

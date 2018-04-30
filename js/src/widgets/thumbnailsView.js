@@ -93,7 +93,8 @@
       this.currentImgIndex = $.getImageIndexById(this.imagesList, focusList[0]);
       var currentImage = this.currentImgIndex+1;
       //var nextImage = currentImage + 1; //going to see if we need to add next image number
-      this.element.filter('div.status').html('<p>'+currentImage + ' / '+this.imagesList.length+'</p>');
+      //this.element.filter('div.status').html('<p>HELLO?'+currentImage + ' / '+this.imagesList.length+'</p>');
+      jQuery('.bottomPanel').find('.status').html('<p>'+currentImage +' / '+this.imagesList.length+'</p>');
 
       this.element.find('.highlight').removeClass('highlight');
       jQuery.each(focusList, function(index, canvasId) {
