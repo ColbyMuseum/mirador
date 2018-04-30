@@ -122,7 +122,7 @@
 
 .mirador-container .mirador-osd-go-home {
   color: #ffffff;
-  opacity: .5;
+  display: none;
 }
 
 .status {

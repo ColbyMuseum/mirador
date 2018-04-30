@@ -148,7 +148,6 @@
       //add any other events that would trigger thumbnail display (resize, etc)
 
       _this.element.find('.thumbnail-image').on('click', function() {
-        console.log('click', this);
         var canvasID = jQuery(this).attr('data-image-id');
         _this.eventEmitter.publish('SET_CURRENT_CANVAS_ID.' + _this.windowId, canvasID);
       });

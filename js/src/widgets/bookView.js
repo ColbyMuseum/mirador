@@ -141,6 +141,8 @@
 
       this.element.find('.mirador-osd-go-home').on('click', function() {
         _this.osd.viewport.goHome();
+        //reset fade
+        _this.element.find('.mirador-osd-go-home').fadeOut();
       });
 
       this.element.find('.mirador-osd-up').on('click', function() {
@@ -344,10 +346,13 @@
           _this.osd.world.addHandler( "add-item", addItemHandler );
 
           _this.osd.addHandler('zoom', $.debounce(function(){
-            //_this.element[0].find('.mirador-osd-go-home').css('opacity', 1);
             _this.setBounds();
-             console.log('zoom',  _this.osdOptions.osdBounds);
-             console.log('reset', _this.element.find('.mirador-osd-go-home'))
+            //control fade of reset button
+            if (_this.osdOptions.osdBounds.x > 0)  {
+              _this.element.find('.mirador-osd-go-home').fadeIn();
+            } else {
+              _this.element.find('.mirador-osd-go-home').fadeOut();
+            }
           }, 300));
 
           _this.osd.addHandler('pan', $.debounce(function(){
@@ -382,6 +387,10 @@
       console.log('next');
       var _this = this;
       var next;
+
+      //reset opacity on reset button
+      _this.element.find('.mirador-osd-go-home').fadeOut();
+
       if (this.currentImgIndex % 2 === 0) {
         next = this.currentImgIndex + 1;
       } else {
@@ -396,9 +405,12 @@
     // need previous single page for lining things up
     // don't need for continuous or individuals
     previous: function() {
-      console.log('previous');
       var _this = this;
       var prev;
+
+      //reset opacity on reset button
+      _this.element.find('.mirador-osd-go-home').fadeOut();
+
       if (this.currentImgIndex % 2 === 0) {
         prev = this.currentImgIndex - 2;
       } else {
