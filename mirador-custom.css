@@ -40,6 +40,11 @@
   transition: transform 0.2s ease;
 }
 
+.mirador-container .panel-thumbnail-view {
+  overflow-x: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
+}
+
 .mirador-container .mirador-osd-toggle-bottom-panel {
   /*z-index: 50;
   font-family: 'Ideal Sans';
@@ -64,6 +69,10 @@
   transform: translateY(-105px);
   transition: all 0.2s ease-out;
 
+}
+
+.fa-angle-left {
+  color: #444444;
 }
 
 .seeAll {
