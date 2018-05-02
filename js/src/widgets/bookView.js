@@ -114,6 +114,10 @@
 
       _this.eventEmitter.subscribe('currentCanvasIDUpdated.' + _this.windowId, function(event, canvasId) {
         ga('send', 'event', 'selection', 'image selected', _this.currentImgIndex+1);
+        
+        //reset opacity on reset button
+        _this.element.find('.mirador-osd-go-home').fadeOut();
+        
         // If it is the first canvas, hide the "go to previous" button, otherwise show it.
         if (canvasId === firstCanvasId) {
           _this.element.find('.mirador-osd-previous').hide();
@@ -214,8 +218,13 @@
           height: _this.osdOptions.osdBounds.height
         }
       });
+      
       //control fade of reset button
-      if (_this.osdOptions.osdBounds.width < 2)  {
+      var lastItem = _this.imagesList.length - 1;
+      if (_this.osdOptions.osdBounds.width < 1.6)  {
+        if ((_this.currentImgIndex === 0 || _this.currentImgIndex === lastItem) && (_this.osdOptions.osdBounds.width > 0.9)) {
+          return;
+        }
         _this.element.find('.mirador-osd-go-home').fadeIn();
       } else {
         _this.element.find('.mirador-osd-go-home').fadeOut();
@@ -390,9 +399,6 @@
       var _this = this;
       var next;
 
-      //reset opacity on reset button
-      _this.element.find('.mirador-osd-go-home').fadeOut();
-
       if (this.currentImgIndex % 2 === 0) {
         next = this.currentImgIndex + 1;
       } else {
@@ -409,9 +415,6 @@
     previous: function() {
       var _this = this;
       var prev;
-
-      //reset opacity on reset button
-      _this.element.find('.mirador-osd-go-home').fadeOut();
 
       if (this.currentImgIndex % 2 === 0) {
         prev = this.currentImgIndex - 2;
