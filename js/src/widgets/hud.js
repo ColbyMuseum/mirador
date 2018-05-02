@@ -239,7 +239,7 @@
                                  '{{/if}}',
                                  '{{#if showBottomPanel}}',
                                  '<a class="mirador-osd-toggle-bottom-panel hud-control" role="button" aria-label="Toggle Bottom Panel">',
-                                 '<p class="exhibitionTitle" title="exhibitionTitle" aria-label="exhibitionTitle"><span class="backToStart"><i class="fa fa-angle-left"></i> Medical Sketchbook, 1918</span></p>',
+                                 '<p class="exhibitionTitle" title="exhibitionTitle" aria-label="exhibitionTitle">Medical Sketchbook, 1918</p>',
                                  '<span class="seeAll"><i class="fa fa-angle-down"></i>&nbsp;&nbsp;&nbsp;See all pages</span>',
                                  '</a>',
                                  '{{/if}}',

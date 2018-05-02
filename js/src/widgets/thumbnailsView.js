@@ -91,11 +91,11 @@
 
       //display current image #
       this.currentImgIndex = $.getImageIndexById(this.imagesList, focusList[0]);
-      var currentImage = this.currentImgIndex+1;
-      //var nextImage = currentImage + 1; //going to see if we need to add next image number
-      //this.element.filter('div.status').html('<p>HELLO?'+currentImage + ' / '+this.imagesList.length+'</p>');
+      var currentImage = this.currentImgIndex+1; 
       jQuery('.bottomPanel').find('.status').html('<p>'+currentImage +' / '+this.imagesList.length+'</p>');
 
+      ga('send', 'event', 'selection', 'image selected via thumbnail', currentImage);
+      
       this.element.find('.highlight').removeClass('highlight');
       jQuery.each(focusList, function(index, canvasId) {
         _this.element.find("img[data-image-id='"+canvasId+"']").addClass('highlight');
