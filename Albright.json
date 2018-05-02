@@ -1342,6 +1342,31 @@
         },
         {
           "@type": "sc:Canvas",
+          "@id": "http://7e79577995840944c8ad667ede15a4b142cd139f",
+          "label": "Albright Sketchbook",
+          "width": 1843,
+          "height": 1200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://7e79577995840944c8ad667ede15a4b142cd139f",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://lakeimagesweb.artic.edu/iiif/2/468e48c9-ecbe-5d15-ff5f-4f487bfce6de/full/full/0/default.jpg",
+                "width": 1843,
+                "height": 1200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://lakeimagesweb.artic.edu/iiif/2/468e48c9-ecbe-5d15-ff5f-4f487bfce6de",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
           "@id": "http://028da1d02556b240464a9c4d6a04e803de6df7df",
           "label": "Albright Sketchbook",
           "width": 1808,
