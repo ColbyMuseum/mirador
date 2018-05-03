@@ -132,6 +132,8 @@
 .mirador-container .mirador-osd-go-home {
   color: #ffffff;
   display: none;
+  right: 30px;
+  top: 30px;
 }
 
 .status {
@@ -183,6 +185,15 @@
 }
 
 .mirador-container .mirador-osd-next, .mirador-container .mirador-osd-previous {
-    padding: 25px;
-    margin-top: -80px;
+    padding: 50px;
+    margin-top: -100px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0); 
+}
+
+.mirador-container .mirador-osd-next {
+  right: -1%;
+}
+
+.mirador-container .mirador-osd-previous {
+  left: -1%;
 }
