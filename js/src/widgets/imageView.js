@@ -208,6 +208,8 @@
 
       this.element.find('.mirador-osd-go-home').on('click', function() {
         _this.osd.viewport.goHome();
+        //reset opacity on reset button
+        _this.element.find('.mirador-osd-go-home').fadeOut();
       });
 
       this.element.find('.mirador-osd-up').on('click', function() {
@@ -510,6 +512,8 @@
           lastCanvasId = _this.imagesList[_this.imagesList.length-1]['@id'];
       //loading message
       jQuery('.loading').fadeIn(400);
+      //reset opacity on reset button
+      _this.element.find('.mirador-osd-go-home').fadeOut();
       // If it is the first canvas, hide the "go to previous" button, otherwise show it.
       if (canvasId === firstCanvasId) {
         _this.element.find('.mirador-osd-previous').hide();
@@ -634,6 +638,7 @@
           height: _this.osdOptions.osdBounds.height
         }
       });
+
       var rectangle = this.osdOptions.osdBounds; // In ImageView, viewport coordinates are in the same as Canvas Coordinates.
       _this.eventEmitter.publish("imageRectangleUpdated", {
         id: _this.windowId,
@@ -645,6 +650,16 @@
         },
         warning: 'Warning, image rectangle now based on canvas dimensions, not the constituent images.'
       });
+
+      //control fade of reset button
+      var lastItem = _this.imagesList.length - 1;
+      var myBounds = _this.osdOptions.osdBounds.width * 0.001;
+      if (myBounds < 1.6)  {
+        console.log('my bounds is more than 1.6');
+        _this.element.find('.mirador-osd-go-home').fadeIn();
+      } else {
+        _this.element.find('.mirador-osd-go-home').fadeOut();
+      }
     },
 
     toggle: function(stateValue) {
