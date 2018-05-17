@@ -51,6 +51,8 @@
           zoomLevel:        null
         };
       }
+      //loading message
+      jQuery('.loading').fadeIn(400);
       this.currentImg = this.imagesList[this.currentImgIndex];
       this.element = jQuery(this.template()).appendTo(this.appendTo);
       this.elemAnno = jQuery('<div/>')
@@ -506,7 +508,8 @@
       var _this = this,
           firstCanvasId = _this.imagesList[0]['@id'],
           lastCanvasId = _this.imagesList[_this.imagesList.length-1]['@id'];
-
+      //loading message
+      jQuery('.loading').fadeIn(400);
       // If it is the first canvas, hide the "go to previous" button, otherwise show it.
       if (canvasId === firstCanvasId) {
         _this.element.find('.mirador-osd-previous').hide();
@@ -546,6 +549,8 @@
 
           imageResource.osdTiledImage = tiledImage;
           imageResource.setStatus('loaded');
+          //loading message
+          jQuery('.loading').fadeOut(100);
           _this.syncAllImageResourceProperties(imageResource);
 
           var tileDrawnHandler = function(event) {
@@ -619,7 +624,6 @@
 
     setBounds: function() {
       var _this = this;
-
       this.osdOptions.osdBounds = this.osd.viewport.getBounds(true);
       _this.eventEmitter.publish("imageBoundsUpdated", {
         id: _this.windowId,

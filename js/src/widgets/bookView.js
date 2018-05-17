@@ -33,6 +33,7 @@
 
     init: function() {
       var _this = this;
+
       if(this.vDirectionStatus == 'rtl'){
         this.imagesList =  this.imagesListRtl.concat();
       }
@@ -46,6 +47,8 @@
           zoomLevel:        null
         };
       }
+      //loading message
+      jQuery('.loading').fadeIn(400);
 
       this.currentImg = this.imagesList[this.currentImgIndex];
 
@@ -95,7 +98,6 @@
       _this.eventEmitter.subscribe('bottomPanelSet.' + _this.windowId, function(event, visible) {
         var dodgers = _this.element.find('.mirador-osd-toggle-bottom-panel, .mirador-pan-zoom-controls');
         var arrows = _this.element.find('.mirador-osd-next, .mirador-osd-previous');
-        //var seeAll = _this.element.find('.seeAll').html(); //why doesn't using this variable work?
         if (visible === true) {
           dodgers.addClass('bottom-panel-open');
           arrows.addClass('bottom-panel-open');
@@ -113,11 +115,12 @@
       });
 
       _this.eventEmitter.subscribe('currentCanvasIDUpdated.' + _this.windowId, function(event, canvasId) {
+        //send google analytics
         ga('send', 'event', 'selection', 'image selected', _this.currentImgIndex+1);
-        
+        //loading message
+        jQuery('.loading').fadeIn(400);
         //reset opacity on reset button
         _this.element.find('.mirador-osd-go-home').fadeOut();
-        
         // If it is the first canvas, hide the "go to previous" button, otherwise show it.
         if (canvasId === firstCanvasId) {
           _this.element.find('.mirador-osd-previous').hide();
@@ -324,6 +327,8 @@
           'id':           elemOsd.attr('id'),
           'toolbarID' : toolbarID
         });
+        //loading message
+        jQuery('.loading').fadeOut(100);
 
         // if (_this.state.getStateProperty('autoHideControls')) {
         //   var timeoutID = null,
