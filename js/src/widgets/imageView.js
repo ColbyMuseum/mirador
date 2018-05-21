@@ -513,7 +513,7 @@
           firstCanvasId = _this.imagesList[0]['@id'],
           lastCanvasId = _this.imagesList[_this.imagesList.length-1]['@id'];
       //loading message
-      jQuery('.loading').fadeIn(400);
+      jQuery('.loading').fadeOut(100);
       //reset opacity on reset button
       _this.element.find('.mirador-osd-go-home').fadeOut();
       // If it is the first canvas, hide the "go to previous" button, otherwise show it.
@@ -531,6 +531,8 @@
     },
 
     loadImage: function(event, imageResource) {
+      //loading message
+      jQuery('.loading').fadeOut(100);
       var _this = this;
 
       // We've already loaded this tilesource
@@ -555,8 +557,6 @@
 
           imageResource.osdTiledImage = tiledImage;
           imageResource.setStatus('loaded');
-          //loading message
-          jQuery('.loading').fadeOut(100);
           _this.syncAllImageResourceProperties(imageResource);
 
           var tileDrawnHandler = function(event) {
@@ -656,7 +656,7 @@
       //control fade of reset button
       var lastItem = _this.imagesList.length - 1;
       var myBounds = _this.osdOptions.osdBounds.width * 0.001;
-      if (myBounds < 1.6)  {
+      if (myBounds < 3.9)  {
         console.log('my bounds is more than 1.6');
         _this.element.find('.mirador-osd-go-home').fadeIn();
       } else {
@@ -812,6 +812,9 @@
     },
 
     updateImage: function(canvasID) {
+      //loading message
+      jQuery('.loading').fadeIn(400);
+      
       var _this = this;
       if (this.canvasID !== canvasID) {
         this.canvases[_this.canvasID].getVisibleImages().forEach(function(imageResource){
