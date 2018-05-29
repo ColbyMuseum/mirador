@@ -720,7 +720,7 @@
         blendTime: 0.1,
         alwaysBlend: false,
         showNavigationControl: false,
-        maxZoomPixelRatio: 1,
+        maxZoomPixelRatio: 0.75,
         viewportMargins: {left: 50,top: 50,right: 50,bottom: 50}
       });
 
