@@ -719,7 +719,8 @@
         preserveViewport: true,
         blendTime: 0.1,
         alwaysBlend: false,
-        showNavigationControl: false
+        showNavigationControl: false,
+        maxZoomPixelRatio: 1
       });
 
       var canvasBounds = canvasModel.getBounds();
