@@ -117,7 +117,7 @@
           scrollPosition = _this.element.scrollLeft() + (target.position().left + target.width()/2) - _this.element.width()/2;
         }
       }
-      _this.element.scrollTo(scrollPosition, 900);
+      _this.element.scrollTo(scrollPosition, 400);
     },
 
     listenForActions: function() {
