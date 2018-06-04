@@ -85,9 +85,7 @@
   display: none;
 }
 
-.exhibitionTitle {
-  transform: translateY(0px);
-  transition: all 0.2s ease-out;
+.mirador-container .mirador-osd-toggle-bottom-panel .exhibitionTitle {
   color: #000000;
   font-family: SabonLTPro-Roman;
   font-weight: normal;
@@ -102,6 +100,11 @@
   padding: 35px 25px;
   text-align: left;
   text-shadow: none;
+}
+
+ .mirador-container .mirador-osd-toggle-bottom-panel.bottom-panel-open .exhibitionTitle {
+  transform: translateY(0px);
+  transition: all 0.2s ease-out;
 }
 
 .thumb-label {
@@ -138,6 +141,7 @@
   border-radius: 11px;
   z-index: 50;
   opacity: .75;
+  display: none;
 }
 
 .status p {
@@ -177,9 +181,9 @@
 }
 
 .mirador-container .mirador-osd-next, .mirador-container .mirador-osd-previous {
-    padding: 50px;
-    margin-top: -100px;
-    -webkit-tap-highlight-color: rgba(0,0,0,0); 
+  padding: 50px;
+  margin-top: -100px;
+  -webkit-tap-highlight-color: rgba(0,0,0,0); 
 }
 
 .mirador-container .mirador-osd-next {

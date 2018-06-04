@@ -36,7 +36,7 @@
 
       //display current image #
       var currentImage = this.currentImgIndex+1;
-      jQuery('.bottomPanel').find('.status').html('<p>'+currentImage +' / '+this.imagesList.length+'</p>');
+      jQuery('.view-container').find('.status').html('<p>'+currentImage +' / '+this.imagesList.length+'</p>');
 
       if(this.vDirectionStatus == 'rtl'){
         var firstCanvasId = this.imagesList[0]['@id'];
@@ -92,7 +92,7 @@
       //display current image #
       this.currentImgIndex = $.getImageIndexById(this.imagesList, focusList[0]);
       var currentImage = this.currentImgIndex+1; 
-      jQuery('.bottomPanel').find('.status').html('<p>'+currentImage +' / '+this.imagesList.length+'</p>');
+      jQuery('.view-container').find('.status').html('<p>'+currentImage +' / '+this.imagesList.length+'</p>');
 
       ga('send', 'event', 'selection', 'image selected via thumbnail', currentImage);
       

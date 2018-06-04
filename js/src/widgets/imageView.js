@@ -113,14 +113,20 @@
       _this.eventEmitter.subscribe('bottomPanelSet.' + _this.windowId, function(event, visible) {
         var dodgers = _this.element.find('.mirador-osd-toggle-bottom-panel, .mirador-pan-zoom-controls');
         var arrows = _this.element.find('.mirador-osd-next, .mirador-osd-previous');
+        var numberStatus = jQuery('.view-container').find('.status');
+        var exhibitionTitle = _this.element.find('.exhibitionTitle');
         if (visible === true) {
           dodgers.addClass('bottom-panel-open');
           arrows.addClass('bottom-panel-open');
+          exhibitionTitle.addClass('bottom-panel-open');
+          numberStatus.css('display', 'block');
           _this.element.find('.seeAll').html('<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Menu-Open" transform="translate(-1272.000000, -850.000000)" stroke="#444444" stroke-width="1.5"><g id="icon_close_16" transform="translate(1273.000000, 851.000000)"><g id="icons"><path d="M0,0 L10,10" id="Shape"></path><path d="M10,0 L0,10" id="Shape"></path></g></g></g></g></svg></i>&nbsp;&nbsp;&nbsp;Close');
           
         } else {
           dodgers.removeClass('bottom-panel-open');
           arrows.removeClass('bottom-panel-open');
+          numberStatus.css('display', 'none');
+          exhibitionTitle.removeClass('bottom-panel-open');
           _this.element.find('.seeAll').html('<i class="fa fa-angle-down"></i>&nbsp;&nbsp;&nbsp;See all pages');
           
         }
