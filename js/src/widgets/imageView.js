@@ -184,10 +184,12 @@
 
       this.element.find('.mirador-osd-next').on('click', function() {
         _this.next();
+        ga('send', 'event', 'controls', 'next', 'next button');
       });
 
       this.element.find('.mirador-osd-previous').on('click', function() {
         _this.previous();
+        ga('send', 'event', 'controls', 'previous', 'previous button');
       });
 
       this.element.find('.mirador-osd-annotations-layer').on('click', function() {
@@ -220,6 +222,7 @@
         _this.osd.viewport.goHome();
         //reset opacity on reset button
         _this.element.find('.mirador-osd-go-home').fadeOut();
+        ga('send', 'event', 'controls', 'reset', 'reset button');
       });
 
       this.element.find('.mirador-osd-up').on('click', function() {
@@ -272,6 +275,7 @@
 
       this.element.find('.mirador-osd-toggle-bottom-panel').on('click', function() {
         _this.eventEmitter.publish('TOGGLE_BOTTOM_PANEL_VISIBILITY.' + _this.windowId);
+        ga('send', 'event', 'controls', 'see all pages', 'see all pages panel');
       });
 
       // Annotation specific controls
@@ -520,6 +524,7 @@
       var _this = this,
           firstCanvasId = _this.imagesList[0]['@id'],
           lastCanvasId = _this.imagesList[_this.imagesList.length-1]['@id'];
+      ga('send', 'event', 'selection', 'image selected', _this.currentImgIndex+1);
       //reset opacity on reset button
       _this.element.find('.mirador-osd-go-home').fadeOut();
       // If it is the first canvas, hide the "go to previous" button, otherwise show it.
@@ -799,10 +804,12 @@
       }
 
       _this.osd.addHandler('zoom', $.debounce(function() {
+        ga('send', 'event', 'gestures', 'zoom', 'zoom image');
         _this.setBounds();
       }, 500));
 
       _this.osd.addHandler('pan', $.debounce(function(){
+        ga('send', 'event', 'gestures', 'pan', 'move image');
         _this.setBounds();
       }, 500));
     },
