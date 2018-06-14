@@ -715,6 +715,15 @@
       }
     },
 
+    canvasDragHandler: function(event, _this) {
+      //handle swipe gesture
+      if (event.direction > -1 && event.direction < 1) {
+        _this.previous();
+      } else {
+        _this.next();
+      }
+    },
+
     initialiseImageCanvas: function() {
       var _this = this,
           osdID = 'mirador-osd-' + $.genUUID(),
@@ -734,6 +743,9 @@
         alwaysBlend: false,
         showNavigationControl: false,
         maxZoomPixelRatio: 0.75,
+        //turn off pan at start to enable swipe
+        panHorizontal: false,
+        panVertical: false,
         viewportMargins: {left: 50,top: 50,right: 50,bottom: 50}
       });
 
@@ -749,6 +761,11 @@
       canvasModel.show();
       canvasModel.getVisibleImages().forEach(function(imageResource) {
         _this.loadImage(null, imageResource);
+      });
+
+      _this.osd.addHandler('canvas-drag-end', function(event) {
+        //listen for swipe gesture
+        _this.canvasDragHandler(event, _this);
       });
 
       _this.osd.addHandler('zoom', $.debounce(function(){
