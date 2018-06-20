@@ -24,7 +24,9 @@
       annotationsLayer: null,
       forceShowControls: false,
       eventEmitter:     null,
-      vDirectionStatus: ''
+      vDirectionStatus: '',
+      originalBoundsWidth:   null,
+      setBoundsCounter: 3
     }, options);
 
     this.init();
@@ -222,6 +224,13 @@
         _this.osd.viewport.goHome();
         //reset opacity on reset button
         _this.element.find('.mirador-osd-go-home').fadeOut();
+        //add swipe back in
+        _this.osd.panHorizontal = false;
+        _this.osd.panVertical = false;
+        _this.osd.addHandler('canvas-drag-end', $.debounce(function(event) {
+          //listen for swipe gesture
+          _this.canvasDragHandler(event, _this);
+        }, 30));
         ga('send', 'event', 'controls', 'reset', 'reset button');
       });
 
@@ -525,6 +534,17 @@
           firstCanvasId = _this.imagesList[0]['@id'],
           lastCanvasId = _this.imagesList[_this.imagesList.length-1]['@id'];
       ga('send', 'event', 'selection', 'image selected', _this.currentImgIndex+1);
+
+      //get width of new image
+      _this.originalBoundsWidth = Math.round(_this.osd.viewport.getBounds(true).width);
+      _this.osd.removeAllHandlers('canvas-drag-end');
+      _this.osd.addHandler('canvas-drag-end', $.debounce(function(event) {
+        //listen for swipe gesture
+        _this.canvasDragHandler(event, _this);
+      }, 30));
+      _this.osd.panHorizontal = false;
+      _this.osd.panVertical = false;
+
       //reset opacity on reset button
       _this.element.find('.mirador-osd-go-home').fadeOut();
       // If it is the first canvas, hide the "go to previous" button, otherwise show it.
@@ -643,6 +663,13 @@
 
     setBounds: function() {
       var _this = this;
+
+      _this.setBoundsCounter--;
+      if (_this.setBoundsCounter == 0) {
+        //get width of loaded image after setBounds executes 3 times
+        _this.originalBoundsWidth = Math.round(_this.osd.viewport.getBounds(true).width);
+      }
+
       this.osdOptions.osdBounds = this.osd.viewport.getBounds(true);
       _this.eventEmitter.publish("imageBoundsUpdated", {
         id: _this.windowId,
@@ -668,12 +695,40 @@
 
       //control fade of reset button
       var lastItem = _this.imagesList.length - 1;
-      var myBounds = _this.osdOptions.osdBounds.width * 0.001;
-      if (myBounds < 3.9)  {
-        _this.element.find('.mirador-osd-go-home').fadeIn();
-      } else {
-        _this.element.find('.mirador-osd-go-home').fadeOut();
-      }
+
+      _this.resetActions();
+    },
+
+    resetActions: function() {
+      var _this = this;
+      //actions on detecting zoom in via pinch gesture
+      _this.osd.addHandler('canvas-pinch', function(event) {
+        //remove swipe
+        _this.osd.removeAllHandlers('canvas-drag-end');
+        //get current width
+        var myBounds = Math.round(_this.osd.viewport.getBounds(true).width);
+        if (myBounds < _this.originalBoundsWidth)  {
+          //if zoomed in, remove handlers and allow for panning, display reset button
+          _this.osd.removeAllHandlers('canvas-drag-end');
+          _this.osd.removeAllHandlers('canvas-release');
+          _this.element.find('.mirador-osd-go-home').fadeIn();
+          _this.osd.panHorizontal = true;
+          _this.osd.panVertical = true;
+        } else {
+          //if zoomed out, remove reset button, panning and add swipe back in
+          _this.element.find('.mirador-osd-go-home').fadeOut();
+          _this.osd.panHorizontal = false;
+          _this.osd.panVertical = false;
+          _this.osd.addHandler('canvas-release', $.debounce(function(event) {
+            //remove handlers on canvas release, and add back in
+            _this.osd.removeAllHandlers('canvas-drag-end');
+            _this.osd.addHandler('canvas-drag-end', $.debounce(function(event) {
+              //listen for swipe gesture
+              _this.canvasDragHandler(event, _this);
+            }, 30));
+          }, 30));
+        }
+      }); 
     },
 
     toggle: function(stateValue) {
@@ -756,6 +811,7 @@
         canvasBounds.width,
         canvasBounds.height
       );
+
       _this.osd.viewport.fitBounds(rect, true); // center viewport before image is placed.
 
       canvasModel.show();
@@ -763,10 +819,10 @@
         _this.loadImage(null, imageResource);
       });
 
-      _this.osd.addHandler('canvas-drag-end', function(event) {
-        //listen for swipe gesture
-        _this.canvasDragHandler(event, _this);
-      });
+      _this.osd.addHandler('canvas-drag-end', $.debounce(function(event) {
+          //listen for swipe gesture
+          _this.canvasDragHandler(event, _this);
+      }, 30));
 
       _this.osd.addHandler('zoom', $.debounce(function(){
         var point = {
