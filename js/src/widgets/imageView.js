@@ -691,6 +691,9 @@
 
     resetActions: function() {
       var _this = this;
+      //removing handlers
+      _this.osd.removeAllHandlers('canvas-pinch');
+      _this.osd.removeAllHandlers('canvas-scroll');
       //actions on detecting zoom in via pinch gesture
       _this.osd.addHandler('canvas-pinch', function(event) {
         //remove swipe
@@ -714,6 +717,22 @@
           }, 30));
         }
       }); 
+      //handling mouse scrolls
+      _this.osd.addHandler('canvas-scroll', function(event) {
+        var myBounds = Math.round(_this.osd.viewport.getBounds(true).width);
+        if (myBounds < _this.originalBoundsWidth)  {
+          //if zoomed in, remove handlers and allow for panning, display reset button
+          _this.element.find('.mirador-osd-go-home').fadeIn();
+          _this.osd.panHorizontal = true;
+          _this.osd.panVertical = true;
+          _this.osd.removeAllHandlers('canvas-drag-end');
+        } else {
+          //if zoomed out, remove reset button, panning
+          _this.element.find('.mirador-osd-go-home').fadeOut();
+          _this.osd.panHorizontal = false;
+          _this.osd.panVertical = false;
+        }
+      });
     },
 
     toggle: function(stateValue) {
