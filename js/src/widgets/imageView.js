@@ -225,12 +225,7 @@
         //reset opacity on reset button
         _this.element.find('.mirador-osd-go-home').fadeOut();
         //add swipe back in
-        _this.osd.panHorizontal = false;
-        _this.osd.panVertical = false;
-        _this.osd.addHandler('canvas-drag-end', $.debounce(function(event) {
-          //listen for swipe gesture
-          _this.canvasDragHandler(event, _this);
-        }, 30));
+        _this.swipeOn();
         ga('send', 'event', 'controls', 'reset', 'reset button');
       });
 
@@ -537,13 +532,8 @@
 
       //get width of new image
       _this.originalBoundsWidth = Math.round(_this.osd.viewport.getBounds(true).width);
-      _this.osd.removeAllHandlers('canvas-drag-end');
-      _this.osd.addHandler('canvas-drag-end', $.debounce(function(event) {
-        //listen for swipe gesture
-        _this.canvasDragHandler(event, _this);
-      }, 30));
-      _this.osd.panHorizontal = false;
-      _this.osd.panVertical = false;
+      _this.osd.removeAllHandlers('canvas-drag-end'); 
+      _this.swipeOn();
 
       //reset opacity on reset button
       _this.element.find('.mirador-osd-go-home').fadeOut();
@@ -717,15 +707,10 @@
         } else {
           //if zoomed out, remove reset button, panning and add swipe back in
           _this.element.find('.mirador-osd-go-home').fadeOut();
-          _this.osd.panHorizontal = false;
-          _this.osd.panVertical = false;
           _this.osd.addHandler('canvas-release', $.debounce(function(event) {
             //remove handlers on canvas release, and add back in
             _this.osd.removeAllHandlers('canvas-drag-end');
-            _this.osd.addHandler('canvas-drag-end', $.debounce(function(event) {
-              //listen for swipe gesture
-              _this.canvasDragHandler(event, _this);
-            }, 30));
+            _this.swipeOn();
           }, 30));
         }
       }); 
@@ -777,6 +762,16 @@
       } else {
         _this.next();
       }
+    },
+
+    swipeOn: function() {
+      var _this = this;
+      _this.osd.panHorizontal = false;
+      _this.osd.panVertical = false;
+      _this.osd.addHandler('canvas-drag-end', $.debounce(function(event) {
+        //listen for swipe gesture
+        _this.canvasDragHandler(event, _this);
+      }, 30));
     },
 
     initialiseImageCanvas: function() {
