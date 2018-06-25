@@ -22,7 +22,9 @@
         zoomLevel:        null
       },
       stitchTileMargin: 10,
-      eventEmitter: null
+      eventEmitter: null,
+      originalBoundsWidth:   null,
+      setBoundsCounter: 3
     }, options);
 
     this.init();
@@ -119,6 +121,12 @@
         ga('send', 'event', 'selection', 'image selected', _this.currentImgIndex+1);
         //loading message
         jQuery('.loading').fadeIn(400);
+
+        //get width of new image
+        _this.originalBoundsWidth = Math.round(_this.osd.viewport.getBounds(true).width);
+        _this.osd.removeAllHandlers('canvas-drag-end'); 
+        _this.swipeOn();
+
         //reset opacity on reset button
         _this.element.find('.mirador-osd-go-home').fadeOut();
         // If it is the first canvas, hide the "go to previous" button, otherwise show it.
@@ -151,6 +159,8 @@
         _this.osd.viewport.goHome();
         //reset fade
         _this.element.find('.mirador-osd-go-home').fadeOut();
+        //add swipe back in
+        _this.swipeOn();
         ga('send', 'event', 'controls', 'reset', 'reset button');
       });
       this.element.find('.mirador-osd-up').on('click', function() {
@@ -211,6 +221,13 @@
 
     setBounds: function() {
       var _this = this;
+
+      _this.setBoundsCounter--;
+      if (_this.setBoundsCounter == 0) {
+        //get width of loaded image after setBounds executes 3 times
+        _this.originalBoundsWidth = Math.round(_this.osd.viewport.getBounds(true).width);
+      }
+      
       this.osdOptions.osdBounds = this.osd.viewport.getBounds(true);
       _this.eventEmitter.publish("imageBoundsUpdated", {
         id: _this.windowId,
@@ -221,17 +238,54 @@
           height: _this.osdOptions.osdBounds.height
         }
       });
-      
-      //control fade of reset button
-      var lastItem = _this.imagesList.length - 1;
-      if (_this.osdOptions.osdBounds.width < 1.6)  {
-        if ((_this.currentImgIndex === 0 || _this.currentImgIndex === lastItem) && (_this.osdOptions.osdBounds.width > 0.9)) {
-          return;
+
+      _this.resetActions();
+    },
+
+    resetActions: function() {
+      var _this = this;
+      //removing handlers
+      _this.osd.removeAllHandlers('canvas-pinch');
+      _this.osd.removeAllHandlers('canvas-scroll');
+      //actions on detecting zoom in via pinch gesture
+      _this.osd.addHandler('canvas-pinch', function(event) {
+        //remove swipe
+        _this.osd.removeAllHandlers('canvas-drag-end');
+        //get current width
+        var myBounds = Math.round(_this.osd.viewport.getBounds(true).width);
+        if (myBounds < _this.originalBoundsWidth)  {
+          //if zoomed in, remove handlers and allow for panning, display reset button
+          _this.osd.removeAllHandlers('canvas-drag-end');
+          _this.osd.removeAllHandlers('canvas-release');
+          _this.element.find('.mirador-osd-go-home').fadeIn();
+          _this.osd.panHorizontal = true;
+          _this.osd.panVertical = true;
+        } else {
+          //if zoomed out, remove reset button, panning and add swipe back in
+          _this.element.find('.mirador-osd-go-home').fadeOut();
+          _this.osd.addHandler('canvas-release', $.debounce(function(event) {
+            //remove handlers on canvas release, and add back in
+            _this.osd.removeAllHandlers('canvas-drag-end');
+            _this.swipeOn();
+          }, 30));
         }
-        _this.element.find('.mirador-osd-go-home').fadeIn();
-      } else {
-        _this.element.find('.mirador-osd-go-home').fadeOut();
-      }
+      }); 
+      //handling mouse scrolls
+      _this.osd.addHandler('canvas-scroll', function(event) {
+        var myBounds = Math.round(_this.osd.viewport.getBounds(true).width);
+        if (myBounds < _this.originalBoundsWidth)  {
+          //if zoomed in, remove handlers and allow for panning, display reset button
+          _this.element.find('.mirador-osd-go-home').fadeIn();
+          _this.osd.panHorizontal = true;
+          _this.osd.panVertical = true;
+          _this.osd.removeAllHandlers('canvas-drag-end');
+        } else {
+          //if zoomed out, remove reset button, panning
+          _this.element.find('.mirador-osd-go-home').fadeOut();
+          _this.osd.panHorizontal = false;
+          _this.osd.panVertical = false;
+        }
+      });
     },
 
     toggle: function(stateValue) {
@@ -325,7 +379,11 @@
 
         _this.osd = $.OpenSeadragon({
           'id':           elemOsd.attr('id'),
-          'toolbarID' : toolbarID
+          'toolbarID' : toolbarID,
+          //turn off pan at start to enable swipe
+          'panHorizontal' : false,
+          'panVertical' : false,
+          'viewportMargins' : {left: 75,top: 75,right: 75,bottom: 75}
         });
         //loading message
         jQuery('.loading').fadeOut(100);
@@ -366,6 +424,11 @@
           }
 
           _this.osd.world.addHandler( "add-item", addItemHandler );
+
+          _this.osd.addHandler('canvas-drag-end', $.debounce(function(event) {
+            //listen for swipe gesture
+            _this.canvasDragHandler(event, _this);
+          }, 300));
 
           _this.osd.addHandler('zoom', $.debounce(function(){
             ga('send', 'event', 'gestures', 'zoom', 'zoom image');
@@ -430,6 +493,25 @@
       if (prev >= 0) {
         _this.eventEmitter.publish('SET_CURRENT_CANVAS_ID.' + this.windowId, this.imagesList[prev]['@id']);
       }
+    },
+
+    canvasDragHandler: function(event, _this) {
+      //handle swipe gesture
+      if (event.direction > -1 && event.direction < 1) {
+        _this.previous();
+      } else {
+        _this.next();
+      }
+    },
+
+    swipeOn: function() {
+      var _this = this;
+      _this.osd.panHorizontal = false;
+      _this.osd.panVertical = false;
+      _this.osd.addHandler('canvas-drag-end', $.debounce(function(event) {
+        //listen for swipe gesture
+        _this.canvasDragHandler(event, _this);
+      }, 30));
     },
 
     getStitchList: function() {
