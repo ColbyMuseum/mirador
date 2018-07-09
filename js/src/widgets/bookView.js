@@ -23,8 +23,7 @@
       },
       stitchTileMargin: 10,
       eventEmitter: null,
-      originalBoundsWidth:   null,
-      setBoundsCounter: 3
+      originalBoundsWidth:   null
     }, options);
 
     this.init();
@@ -128,8 +127,6 @@
         //loading message
         jQuery('.loading').fadeIn(400);
 
-        //get width of new image
-        _this.originalBoundsWidth = Math.round(_this.osd.viewport.getBounds(true).width);
         _this.osd.removeAllHandlers('canvas-drag-end'); 
         _this.swipeOn();
 
@@ -227,12 +224,6 @@
 
     setBounds: function() {
       var _this = this;
-
-      _this.setBoundsCounter--;
-      if (_this.setBoundsCounter == 0) {
-        //get width of loaded image after setBounds executes 3 times
-        _this.originalBoundsWidth = Math.round(_this.osd.viewport.getBounds(true).width);
-      }
       
       this.osdOptions.osdBounds = this.osd.viewport.getBounds(true);
       _this.eventEmitter.publish("imageBoundsUpdated", {
@@ -258,7 +249,7 @@
         //remove swipe
         _this.osd.removeAllHandlers('canvas-drag-end');
         //get current width
-        var myBounds = Math.round(_this.osd.viewport.getBounds(true).width);
+        var myBounds = _this.osd.viewport.getBounds(true).width;
         if (myBounds < _this.originalBoundsWidth)  {
           //if zoomed in, remove handlers and allow for panning, display reset button
           _this.osd.removeAllHandlers('canvas-drag-end');
@@ -278,7 +269,7 @@
       }); 
       //handling mouse scrolls
       _this.osd.addHandler('canvas-scroll', function(event) {
-        var myBounds = Math.round(_this.osd.viewport.getBounds(true).width);
+        var myBounds = _this.osd.viewport.getBounds(true).width;
         if (myBounds < _this.originalBoundsWidth)  {
           //if zoomed in, remove handlers and allow for panning, display reset button
           _this.element.find('.mirador-osd-go-home').fadeIn();
@@ -392,7 +383,8 @@
         });
         //loading message
         jQuery('.loading').fadeOut(100);
-
+        //get width of initial image
+        _this.originalBoundsWidth = _this.osd.viewport.getBounds(true).width;
         // if (_this.state.getStateProperty('autoHideControls')) {
         //   var timeoutID = null,
         //   fadeDuration = _this.state.getStateProperty('fadeDuration'),
@@ -419,6 +411,9 @@
               var rect = new OpenSeadragon.Rect(_this.osdOptions.osdBounds.x, _this.osdOptions.osdBounds.y, _this.osdOptions.osdBounds.width, _this.osdOptions.osdBounds.height);
               _this.osd.viewport.fitBounds(rect, true);
             } else {
+              //get width of images after first
+              _this.originalBoundsWidth = _this.osd.viewport._contentBounds
+.width;
               _this.osd.viewport.goHome(true);
             }
           };
@@ -447,7 +442,6 @@
         });
         _this.osd.open(tileSources[0], {opacity:1, x:0, y:0, width:1});
       });
-
     },
 
     addLayer: function(tileSources, aspectRatio) {
