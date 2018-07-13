@@ -495,6 +495,7 @@
     },
 
     canvasDragHandler: function(event, _this) {
+      ga('send', 'event', 'gestures', 'swipe', 'swipe image');
       //handle swipe gesture
       if (event.direction > -1 && event.direction < 1) {
         _this.previous();
